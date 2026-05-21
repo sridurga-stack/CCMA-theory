@@ -1,0 +1,2463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OU B.Com Sem 6 – Management Accounting | Complete Exam Guide</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Source+Sans+3:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+
+  :root {
+    --navy: #1a2744;
+    --gold: #c9a84c;
+    --gold-light: #f5e6c0;
+    --crimson: #c0392b;
+    --green: #1a7a4a;
+    --blue: #1565c0;
+    --bg: #fdfaf4;
+    --card: #ffffff;
+    --border: #ddd0b0;
+    --text: #1c1c1c;
+    --muted: #555;
+    --heading: #1a2744;
+    --accent: #c9a84c;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Source Sans 3', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  /* ======= HEADER ======= */
+  .main-header {
+    background: var(--navy);
+    color: white;
+    padding: 32px 40px 24px;
+    border-bottom: 4px solid var(--gold);
+    position: relative;
+  }
+  .main-header::after {
+    content: '';
+    display: block;
+    height: 3px;
+    background: linear-gradient(90deg, var(--gold), transparent);
+    margin-top: 16px;
+  }
+  .header-badge {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--navy);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 2px;
+    padding: 4px 12px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .main-header h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-bottom: 6px;
+  }
+  .main-header p {
+    font-size: 13px;
+    opacity: 0.8;
+    letter-spacing: 0.5px;
+  }
+
+  /* ======= TABLE OF CONTENTS ======= */
+  .toc {
+    background: var(--navy);
+    color: white;
+    padding: 24px 40px;
+    border-bottom: 2px solid var(--border);
+  }
+  .toc h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    color: var(--gold);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  .toc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px 20px;
+  }
+  .toc a {
+    color: rgba(255,255,255,0.75);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 2px 0;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s;
+  }
+  .toc a:hover { color: var(--gold); border-bottom-color: var(--gold); }
+  .toc-section-label {
+    grid-column: 1/-1;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+
+  /* ======= MAIN CONTAINER ======= */
+  .container { max-width: 980px; margin: 0 auto; padding: 30px 30px 60px; }
+
+  /* ======= SECTION HEADERS ======= */
+  .part-header {
+    background: var(--navy);
+    color: white;
+    padding: 14px 22px;
+    border-left: 6px solid var(--gold);
+    margin: 36px 0 20px;
+    border-radius: 0 4px 4px 0;
+  }
+  .part-header h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .part-header p { font-size: 12px; opacity: 0.7; margin-top: 3px; }
+
+  /* ======= QUESTION CARD ======= */
+  .q-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-bottom: 28px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    page-break-inside: avoid;
+  }
+  .q-header {
+    background: linear-gradient(135deg, #1a2744, #253660);
+    color: white;
+    padding: 13px 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .q-num {
+    background: var(--gold);
+    color: var(--navy);
+    font-weight: 900;
+    font-size: 13px;
+    min-width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .q-title { font-family: 'Merriweather', serif; font-size: 14px; font-weight: 700; line-height: 1.4; }
+  .q-marks {
+    margin-left: auto;
+    background: rgba(201,168,76,0.25);
+    color: var(--gold);
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    border: 1px solid rgba(201,168,76,0.4);
+  }
+  .q-body { padding: 20px 22px; }
+
+  /* ======= ANSWER COMPONENTS ======= */
+  .definition-box {
+    background: linear-gradient(135deg, #f0f4ff, #e8f0fe);
+    border-left: 4px solid var(--blue);
+    padding: 14px 16px;
+    border-radius: 0 6px 6px 0;
+    margin: 12px 0;
+  }
+  .definition-box .def-label {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--blue);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .definition-box p { font-size: 13.5px; font-style: italic; color: #1a1a2e; }
+
+  .side-heading {
+    color: var(--navy);
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 18px 0 8px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid var(--gold-light);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .side-heading::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 16px;
+    background: var(--gold);
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  .points-list { list-style: none; padding: 0; margin: 8px 0; }
+  .points-list li {
+    padding: 5px 0 5px 22px;
+    position: relative;
+    font-size: 13.5px;
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+  }
+  .points-list li::before {
+    content: '▶';
+    position: absolute;
+    left: 0;
+    color: var(--gold);
+    font-size: 9px;
+    top: 8px;
+  }
+
+  b, strong { color: #1a1a1a; }
+  .kw { 
+    background: #fff3cd; 
+    color: #856404; 
+    font-weight: 700; 
+    padding: 1px 4px; 
+    border-radius: 3px; 
+    font-size: 12.5px;
+  }
+
+  /* ======= TABLES ======= */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 12.5px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .data-table th {
+    background: var(--navy);
+    color: white;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+  }
+  .data-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e0d0;
+    vertical-align: top;
+  }
+  .data-table tr:nth-child(even) td { background: #faf7f0; }
+  .data-table tr:last-child td { border-bottom: none; }
+  .data-table td:first-child { font-weight: 600; color: var(--navy); }
+
+  .formula-box {
+    background: #f0fff4;
+    border: 1.5px dashed #1a7a4a;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin: 10px 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12.5px;
+    color: #1a4a2e;
+  }
+  .formula-box .f-label {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--green);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-family: 'Source Sans 3', sans-serif;
+  }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 10px 0; }
+  .mini-box {
+    background: #f8f6f0;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 12px 14px;
+  }
+  .mini-box h4 {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid var(--gold);
+    padding-bottom: 4px;
+  }
+  .mini-box ul { list-style: none; padding: 0; }
+  .mini-box ul li {
+    font-size: 12.5px;
+    padding: 2px 0 2px 14px;
+    position: relative;
+  }
+  .mini-box ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--gold);
+    font-weight: 700;
+  }
+
+  .conclusion-box {
+    background: linear-gradient(135deg, #1a2744, #2a3d6e);
+    color: white;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-top: 14px;
+    font-size: 13px;
+  }
+  .conclusion-box strong { color: var(--gold); }
+
+  /* ======= SHORT QUESTION CARD ======= */
+  .sq-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-bottom: 18px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  }
+  .sq-header {
+    background: linear-gradient(135deg, #2d3e6e, #1a2744);
+    color: white;
+    padding: 9px 16px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .sq-num {
+    background: var(--gold);
+    color: var(--navy);
+    font-weight: 900;
+    font-size: 11px;
+    min-width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .sq-title { font-size: 13px; font-weight: 700; }
+  .sq-body { padding: 14px 18px; font-size: 13px; }
+
+  /* ======= LAST MINUTE SECTION ======= */
+  .lm-section {
+    background: var(--navy);
+    color: white;
+    border-radius: 8px;
+    margin-top: 40px;
+    overflow: hidden;
+  }
+  .lm-header {
+    background: var(--crimson);
+    padding: 18px 24px;
+    border-bottom: 3px solid var(--gold);
+  }
+  .lm-header h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .lm-body { padding: 24px; }
+
+  .lm-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 6px;
+    padding: 16px 18px;
+    margin-bottom: 18px;
+  }
+  .lm-card h3 {
+    color: var(--gold);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .lm-card h3 .icon {
+    width: 24px; height: 24px;
+    background: var(--gold);
+    color: var(--navy);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px;
+  }
+
+  .keyword-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+  }
+  .kw-tag {
+    background: rgba(201,168,76,0.2);
+    border: 1px solid rgba(201,168,76,0.4);
+    color: #f5e6c0;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 11.5px;
+    font-weight: 600;
+  }
+
+  .mnemonic-box {
+    background: rgba(192,57,43,0.2);
+    border: 1px solid rgba(192,57,43,0.4);
+    border-radius: 6px;
+    padding: 12px 14px;
+    margin: 8px 0;
+  }
+  .mnemonic-box .m-phrase {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff9090;
+    margin-bottom: 6px;
+  }
+  .mnemonic-box .m-expand {
+    font-size: 12px;
+    color: rgba(255,255,255,0.75);
+    line-height: 1.8;
+  }
+
+  .quick-list { list-style: none; padding: 0; }
+  .quick-list li {
+    padding: 4px 0 4px 16px;
+    position: relative;
+    font-size: 12.5px;
+    color: rgba(255,255,255,0.85);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .quick-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--gold);
+    font-size: 11px;
+  }
+
+  /* Quick Revision Sheet */
+  .qrs {
+    background: #fffef7;
+    border: 2px solid var(--gold);
+    border-radius: 8px;
+    margin-top: 30px;
+    overflow: hidden;
+  }
+  .qrs-header {
+    background: var(--gold);
+    padding: 12px 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .qrs-body {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+  }
+  .qrs-block h4 {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--crimson);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid var(--gold-light);
+    padding-bottom: 4px;
+    margin-bottom: 6px;
+  }
+  .qrs-block p, .qrs-block li {
+    font-size: 11.5px;
+    line-height: 1.6;
+    color: var(--text);
+  }
+  .qrs-block ul { list-style: none; padding: 0; }
+  .qrs-block ul li { padding: 1px 0 1px 12px; position: relative; }
+  .qrs-block ul li::before { content: '→'; position: absolute; left: 0; color: var(--gold); font-size: 10px; }
+
+  .divider {
+    height: 2px;
+    background: linear-gradient(90deg, var(--gold), transparent);
+    margin: 14px 0;
+  }
+
+  .note-tag {
+    display: inline-block;
+    background: #fff3cd;
+    color: #856404;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-right: 6px;
+    border: 1px solid #ffc107;
+  }
+
+  @media print {
+    .toc, .main-header { break-inside: avoid; }
+    .q-card, .sq-card { break-inside: avoid; page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="main-header">
+  <div class="header-badge">OU B.Com Semester 6 • Complete Exam Guide</div>
+  <h1>Management Accounting<br>High-Scoring Exam Answers</h1>
+  <p>Osmania University Standard • All 37 Questions Covered • Long + Short + Last-Minute Revision</p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+  <h2>📋 Quick Navigation</h2>
+  <div class="toc-grid">
+    <div class="toc-section-label">Part A — Long Questions (12 Marks Each)</div>
+    <a href="#q1">Q1. Management Accounting</a>
+    <a href="#q2">Q2. Cost vs Management Accounting</a>
+    <a href="#q3">Q3. Cost Concepts</a>
+    <a href="#q4">Q4. Budget & Budgetary Control</a>
+    <a href="#q5">Q5. Types of Budgets</a>
+    <a href="#q6">Q6. Budget Preparation Procedure</a>
+    <a href="#q7">Q7. Financial Statements</a>
+    <a href="#q8">Q8. Types of FSA</a>
+    <a href="#q9">Q9. Ratio Analysis</a>
+    <a href="#q10">Q10. Funds Flow Statement</a>
+    <a href="#q11">Q11. Working Capital</a>
+    <a href="#q12">Q12. Cash Flow Statement</a>
+    <a href="#q13">Q13. CFS Preparation</a>
+    <a href="#q14">Q14. Types of Cash Flows</a>
+    <a href="#q15">Q15. FFS vs CFS Difference</a>
+    <div class="toc-section-label">Part B — Short Questions (5 Marks Each)</div>
+    <a href="#q16">Q16. CVP Analysis</a>
+    <a href="#q17">Q17. Management Accounting</a>
+    <a href="#q18">Q18. Marginal vs Absorption Costing</a>
+    <a href="#q19">Q19. Break-Even Point</a>
+    <a href="#q20">Q20. Functions of Mgmt Accounting</a>
+    <a href="#q21">Q21. Opportunity Cost</a>
+    <a href="#q22">Q22. Standard Costing</a>
+    <a href="#q23">Q23. Historical Cost</a>
+    <a href="#q24">Q24. Budgetary Control</a>
+    <a href="#q25">Q25. Advantages of Budgetary Control</a>
+    <a href="#q26">Q26. Objectives of Budgetary Control</a>
+    <a href="#q27">Q27. Margin of Safety</a>
+    <a href="#q28">Q28. Importance of FSA</a>
+    <a href="#q29">Q29. Objectives of FSA</a>
+    <a href="#q30">Q30. Working Capital Problem</a>
+    <a href="#q31">Q31. Funds Flow Statement</a>
+    <a href="#q32">Q32. Working Capital</a>
+    <a href="#q33">Q33. Statement of Changes in WC</a>
+    <a href="#q34">Q34. Importance of FFS</a>
+    <a href="#q35">Q35. Importance of CFS</a>
+    <a href="#q36">Q36. Significance of CFS</a>
+    <a href="#q37">Q37. Cash Flow from Operating</a>
+    <div class="toc-section-label">Last-Minute Revision</div>
+    <a href="#revision">Revision Notes & Keywords</a>
+    <a href="#mnemonics">Mnemonics</a>
+    <a href="#quicksheet">One-Page Quick Sheet</a>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- =========================================================
+     PART A — LONG QUESTIONS
+     ========================================================= -->
+<div class="part-header">
+  <h2>📘 PART A — Long Questions (12 Marks Each)</h2>
+  <p>Write 3–4 pages. Include all headings, definitions, points, and conclusion.</p>
+</div>
+
+<!-- Q1 -->
+<div class="q-card" id="q1">
+  <div class="q-header">
+    <div class="q-num">1</div>
+    <div class="q-title">What is Management Accounting? Explain its Features, Objectives, and Scope.</div>
+    <div class="q-marks">12 Marks</div>
+  </div>
+  <div class="q-body">
+
+    <div class="definition-box">
+      <div class="def-label">Definition</div>
+      <p>"<strong>Management Accounting</strong> is the presentation of accounting information in such a way as to assist management in the creation of policy and in the day-to-day operation of an undertaking." — <strong>ICMA (UK)</strong></p>
+    </div>
+    <p style="font-size:13px; margin-top:8px;">In simple words, <span class="kw">Management Accounting</span> is the process of identifying, measuring, accumulating, analyzing, preparing, interpreting, and communicating financial information used by management to <strong>plan, evaluate, and control</strong> the organization.</p>
+
+    <div class="side-heading">Features of Management Accounting</div>
+    <ul class="points-list">
+      <li><span class="kw">Selective in Nature</span> — Selects only relevant data required by management from accounting records.</li>
+      <li><span class="kw">Future-Oriented</span> — Focuses on future planning and forecasting rather than past events.</li>
+      <li><span class="kw">No Fixed Format</span> — Unlike financial accounting, there is no prescribed format; reports are prepared as per management needs.</li>
+      <li><span class="kw">Uses Both Financial & Non-Financial Data</span> — Combines monetary data with operational, statistical, and qualitative information.</li>
+      <li><span class="kw">Internal Use Only</span> — Reports are meant for internal management, not for external parties.</li>
+      <li><span class="kw">Based on Special Purpose</span> — Each report is prepared for a specific purpose (e.g., cost reduction, pricing decision).</li>
+      <li><span class="kw">Flexible</span> — Can be modified based on changing management requirements.</li>
+      <li><span class="kw">Analysis and Interpretation</span> — Involves deep analysis of data to derive meaningful conclusions.</li>
+      <li><span class="kw">No Legal Compulsion</span> — Preparation is voluntary; driven by management needs, not law.</li>
+      <li><span class="kw">Covers All Levels</span> — Serves top, middle, and lower levels of management.</li>
+    </ul>
+
+    <div class="side-heading">Objectives of Management Accounting</div>
+    <ul class="points-list">
+      <li><span class="kw">Planning</span> — Assists in formulating short-term and long-term plans through budgets, forecasts, and projections.</li>
+      <li><span class="kw">Decision Making</span> — Provides relevant cost and revenue data to enable rational managerial decisions.</li>
+      <li><span class="kw">Control</span> — Helps in monitoring actual performance vs. budgeted performance and taking corrective action.</li>
+      <li><span class="kw">Coordination</span> — Coordinates the activities of various departments by integrating their plans and budgets.</li>
+      <li><span class="kw">Communication</span> — Communicates financial and operational data to management at all levels.</li>
+      <li><span class="kw">Motivation</span> — Sets performance targets and evaluates achievements, thereby motivating employees.</li>
+      <li><span class="kw">Financial Performance Evaluation</span> — Measures the financial results and evaluates the efficiency of management.</li>
+      <li><span class="kw">Profit Maximisation</span> — Identifies areas for cost reduction and revenue enhancement.</li>
+    </ul>
+
+    <div class="side-heading">Scope of Management Accounting</div>
+    <table class="data-table">
+      <thead>
+        <tr><th>#</th><th>Area</th><th>Role in Management Accounting</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td><strong>Financial Accounting</strong></td><td>Base data for management analysis (P&L, Balance Sheet)</td></tr>
+        <tr><td>2</td><td><strong>Cost Accounting</strong></td><td>Provides cost data for decision making and control</td></tr>
+        <tr><td>3</td><td><strong>Budgetary Control</strong></td><td>Planning and control through budgets</td></tr>
+        <tr><td>4</td><td><strong>Standard Costing</strong></td><td>Setting standards and analyzing variances</td></tr>
+        <tr><td>5</td><td><strong>Marginal Costing</strong></td><td>Profit planning and CVP analysis</td></tr>
+        <tr><td>6</td><td><strong>Financial Statement Analysis</strong></td><td>Ratio analysis, trend analysis, comparative statements</td></tr>
+        <tr><td>7</td><td><strong>Funds Flow & Cash Flow</strong></td><td>Analysis of fund movements and liquidity</td></tr>
+        <tr><td>8</td><td><strong>Statistical Methods</strong></td><td>Sampling, regression, forecasting techniques</td></tr>
+        <tr><td>9</td><td><strong>Tax Accounting</strong></td><td>Tax planning and compliance for management</td></tr>
+        <tr><td>10</td><td><strong>Internal Audit</strong></td><td>Internal check and evaluation of procedures</td></tr>
+      </tbody>
+    </table>
+
+    <div class="conclusion-box">
+      <strong>Conclusion:</strong> Management Accounting is the backbone of modern managerial decision-making. It integrates cost accounting, financial accounting, and statistical tools to provide management with actionable information for planning, controlling, and achieving organizational objectives.
+    </div>
+  </div>
+</div>
+
+<!-- Q2 -->
+<div class="q-card" id="q2">
+  <div class="q-header">
+    <div class="q-num">2</div>
+    <div class="q-title">State the Differences between Cost Accounting and Management Accounting.</div>
+    <div class="q-marks">12 Marks</div>
+  </div>
+  <div class="q-body">
+
+    <div class="definition-box">
+      <div class="def-label">Cost Accounting</div>
+      <p><strong>Cost Accounting</strong> is the branch of accounting that records, classifies, analyzes, and allocates costs associated with the production of goods or services to determine the cost per unit and control costs.</p>
+    </div>
+    <div class="definition-box" style="background: linear-gradient(135deg, #f0fff4, #e0f7ea); border-color: #1a7a4a;">
+      <div class="def-label" style="color:#1a7a4a;">Management Accounting</div>
+      <p><strong>Management Accounting</strong> provides financial and non-financial data to management for planning, decision-making, and control. It uses cost accounting as one of its inputs.</p>
+    </div>
+
+    <div class="side-heading">Key Differences — Comparison Table</div>
+    <table class="data-table">
+      <thead>
+        <tr><th>Basis of Difference</th><th>Cost Accounting</th><th>Management Accounting</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Meaning</strong></td><td>Records and analyzes production costs</td><td>Provides information for managerial decisions</td></tr>
+        <tr><td><strong>Objective</strong></td><td>Cost ascertainment, control, and reduction</td><td>Planning, controlling, and decision making</td></tr>
+        <tr><td><strong>Scope</strong></td><td>Narrow — limited to cost data</td><td>Wide — includes cost, financial, and statistical data</td></tr>
+        <tr><td><strong>Nature of Data</strong></td><td>Quantitative only</td><td>Both quantitative and qualitative</td></tr>
+        <tr><td><strong>Time Orientation</strong></td><td>Historical and predetermined costs</td><td>Past, present, and future-oriented</td></tr>
+        <tr><td><strong>Users</strong></td><td>Internal management</td><td>Exclusively internal management</td></tr>
+        <tr><td><strong>Legal Requirement</strong></td><td>Compulsory for certain industries</td><td>Purely voluntary</td></tr>
+        <tr><td><strong>Techniques</strong></td><td>Job costing, process costing, standard costing</td><td>Ratio analysis, budgetary control, marginal costing, CVP</td></tr>
+        <tr><td><strong>Format</strong></td><td>Follows cost accounting standards</td><td>No fixed format; tailor-made for management</td></tr>
+        <tr><td><strong>Reporting Period</strong></td><td>Usually monthly, quarterly</td><td>As and when required by management</td></tr>
+        <tr><td><strong>Relationship</strong></td><td>Part of Management Accounting</td><td>Includes cost accounting as a sub-set</td></tr>
+        <tr><td><strong>Precision</strong></td><td>More precise and detailed</td><td>Estimates and approximations acceptable</td></tr>
+        <tr><td><strong>Focus</strong></td><td>Cost of product/service</td><td>Overall organizational performance</td></tr>
+        <tr><td><strong>Decision Making</strong></td><td>Limited role</td><td>Primary purpose is decision support</td></tr>
+      </tbody>
+    </table>
+
+    <div class="side-heading">Relationship Between the Two</div>
+    <ul class="points-list">
+      <li><span class="kw">Management Accounting</span> is broader and includes Cost Accounting as a component.</li>
+      <li><span class="kw">Cost Accounting</span> provides the basic data which Management Accounting uses for analysis.</li>
+      <li>Both are used for <strong>internal purposes</strong> only.</li>
+      <li>Both aim at <strong>improving efficiency</strong> and reducing costs.</li>
+    </ul>
+
+    <div class="conclusion-box">
+      <strong>Conclusion:</strong> While Cost Accounting focuses on recording and controlling production costs, Management Accounting uses this data along with other financial and statistical information to help managers make informed decisions. Management Accounting is an extension and broadening of Cost Accounting.
+    </div>
+  </div>
+</div>
+
+<!-- Q3 -->
+<div class="q-card" id="q3">
+  <div class="q-header">
+    <div class="q-num">3</div>
+    <div class="q-title">Explain the Different Cost Concepts used by Management in Decision Making.</div>
+    <div class="q-marks">12 Marks</div>
+  </div>
+  <div class="q-body">
+
+    <p style="font-size:13px; margin-bottom:10px;">The management uses various <span class="kw">cost concepts</span> while making decisions related to pricing, production, expansion, and elimination. Understanding these cost concepts is essential for rational decision making.</p>
+
+    <div class="side-heading">1. Fixed Cost</div>
+    <ul class="points-list">
+      <li>Costs that <span class="kw">remain constant</span> regardless of the level of production or output.</li>
+      <li>Examples: Rent, salaries, insurance, depreciation.</li>
+      <li><strong>Decision Use:</strong> Relevant for break-even analysis and pricing decisions.</li>
+    </ul>
+
+    <div class="side-heading">2. Variable Cost</div>
+    <ul class="points-list">
+      <li>Costs that <span class="kw">vary directly and proportionately</span> with the level of output.</li>
+      <li>Examples: Raw materials, direct labour, power charges.</li>
+      <li><strong>Decision Use:</strong> Useful in marginal costing and contribution analysis.</li>
+    </ul>
+
+    <div class="side-heading">3. Semi-Variable (Mixed) Cost</div>
+    <ul class="points-list">
+      <li>Contains both <span class="kw">fixed and variable components</span>.</li>
+      <li>Examples: Telephone bills, electricity charges, supervisor salaries.</li>
+      <li><strong>Decision Use:</strong> Cost estimation for flexible budgets.</li>
+    </ul>
+
+    <div class="side-heading">4. Marginal Cost</div>
+    <div class="formula-box">
+      <div class="f-label">Formula</div>
+      Marginal Cost = Total Variable Cost per unit<br>
+      (Cost of producing one additional unit)
+    </div>
+    <ul class="points-list">
+      <li>The <span class="kw">additional cost</span> of producing one more unit of output.</li>
+      <li><strong>Decision Use:</strong> Make-or-buy decisions, pricing decisions, profit planning.</li>
+    </ul>
+
+    <div class="side-heading">5. Opportunity Cost</div>
+    <ul class="points-list">
+      <li>The <span class="kw">value of the next best alternative foregone</span> when a decision is made.</li>
+      <li>Example: If a firm uses factory space for Product A instead of Product B, the profit lost from Product B is the opportunity cost.</li>
+      <li><strong>Decision Use:</strong> Resource allocation, make-or-buy, lease vs. buy decisions.</li>
+    </ul>
+
+    <div class="side-heading">6. Sunk Cost</div>
+    <ul class="points-list">
+      <li>Costs that have <span class="kw">already been incurred</span> and cannot be recovered regardless of future decisions.</li>
+      <li>Example: Amount spent on research already completed.</li>
+      <li><strong>Decision Use:</strong> <strong>Irrelevant</strong> for future decisions — should be ignored in decision making.</li>
+    </ul>
+
+    <div class="side-heading">7. Differential (Incremental) Cost</div>
+    <ul class="points-list">
+      <li>The <span class="kw">difference in total costs</span> between two alternative courses of action.</li>
+      <li><strong>Decision Use:</strong> Choosing between two alternatives — the one with lower differential cost is preferred.</li>
+    </ul>
+
+    <div class="side-heading">8. Relevant Cost</div>
+    <ul class="points-list">
+      <li>Future costs that <span class="kw">differ between alternatives</span> and are directly relevant to a specific decision.</li>
+      <li><strong>Decision Use:</strong> Special orders, discontinuation decisions.</li>
+    </ul>
+
+    <div class="side-heading">9. Avoidable and Unavoidable Cost</div>
+    <table class="data-table">
+      <thead><tr><th>Type</th><th>Meaning</th><th>Decision Role</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Avoidable</strong></td><td>Can be saved if an activity is discontinued</td><td>Relevant for closure/discontinuation</td></tr>
+        <tr><td><strong>Unavoidable</strong></td><td>Cannot be saved even if activity is stopped</td><td>Irrelevant for discontinuation decision</td></tr>
+      </tbody>
+    </table>
+
+    <div class="side-heading">10. Replacement Cost</div>
+    <ul class="points-list">
+      <li>The cost of replacing an existing asset at <span class="kw">current market prices</span>.</li>
+      <li><strong>Decision Use:</strong> Asset replacement decisions, insurance claims.</li>
+    </ul>
+
+    <div class="side-heading">11. Standard Cost</div>
+    <ul class="points-list">
+      <li>A <span class="kw">pre-determined cost</span> established under normal operating conditions.</li>
+      <li><strong>Decision Use:</strong> Variance analysis, performance evaluation, pricing.</li>
+    </ul>
+
+    <div class="side-heading">12. Historical Cost</div>
+    <ul class="points-list">
+      <li>The <span class="kw">actual cost incurred</span> in the past at the time of acquisition.</li>
+      <li><strong>Decision Use:</strong> Used as a base for comparison; not useful for future decisions.</li>
+    </ul>
+
+    <div class="side-heading">13. Joint Cost</div>
+    <ul class="points-list">
+      <li>Costs incurred up to the <span class="kw">split-off point</span> in joint product manufacturing.</li>
+      <li><strong>Decision Use:</strong> Sell-or-process-further decisions.</li>
+    </ul>
+
+    <div class="conclusion-box">
+      <strong>Conclusion:</strong> Different cost concepts serve different decision-making purposes. Management must identify and use the appropriate cost concept — particularly relevant costs, opportunity costs, and marginal costs — while ignoring sunk costs and unavoidable costs when making rational managerial decisions.
+    </div>
+  </div>
+</div>
+
+<!-- Q4 -->
+<div class="q-card" id="q4">
+  <div class="q-header">
+    <div class="q-num">4</div>
+    <div class="q-title">Define Budget and write the Objectives and Advantages of Budgetary Control.</div>
+    <div class="q-marks">12 Marks</div>
+  </div>
+  <div class="q-body">
+
+    <div class="definition-box">
+      <div class="def-label">Definition of Budget (ICMA)</div>
+      <p>"A <strong>Budget</strong> is a financial and/or quantitative statement, prepared and approved prior to a defined period of time, of the policy to be pursued during that period for the purpose of attaining a given objective."</p>
+    </div>
+    <div class="definition-box" style="background: linear-gradient(135deg, #f0fff4, #e0f7ea); border-color: #1a7a4a;">
+      <div class="def-label" style="color:#1a7a4a;">Definition of Budgetary Control (ICMA)</div>
+      <p>"<strong>Budgetary Control</strong> is the establishment of budgets relating to the responsibilities of executives to the requirements of a policy, and the continuous comparison of actual with budgeted results, either to secure by individual action the objective of the policy or to provide a basis for its revision."</p>
+    </div>
+
+    <div class="side-heading">Objectives of Budgetary Control</div>
+    <ul class="points-list">
+      <li><span class="kw">Planning</span> — Compels management to plan ahead, set targets and allocate resources efficiently.</li>
+      <li><span class="kw">Coordination</span> — Ensures that all departments work in harmony toward common organizational goals.</li>
+      <li><span class="kw">Control</span> — Continuous comparison of actual performance with budgeted figures helps detect deviations.</li>
+      <li><span class="kw">Communication</span> — Budgets communicate policies and targets clearly to all levels of management.</li>
+      <li><span class="kw">Motivation</span> — Participation in budget setting motivates employees to achieve planned targets.</li>
+      <li><span class="kw">Performance Evaluation</span> — Acts as a yardstick for measuring managerial and departmental performance.</li>
+      <li><span class="kw">Resource Allocation</span> — Helps in optimal allocation of limited resources among competing uses.</li>
+      <li><span class="kw">Profit Maximisation</span> — Reduces wastage and improves efficiency to maximize profit.</li>
+    </ul>
+
+    <div class="side-heading">Advantages of Budgetary Control</div>
+    <ul class="points-list">
+      <li><span class="kw">Definite Plan of Action</span> — Provides a clear roadmap of activities for the coming period.</li>
+      <li><span class="kw">Early Warning System</span> — Reveals deviations from planned targets early, allowing timely corrective action.</li>
+      <li><span class="kw">Promotes Efficiency</span> — Identifies areas of waste and inefficiency, encouraging better performance.</li>
+      <li><span class="kw">Delegation of Authority</span> — Budget centers promote decentralization and delegation of responsibility.</li>
+      <li><span class="kw">Reduces Costs</span> — Encourages cost consciousness at all levels of management.</li>
+      <li><span class="kw">Forward Planning</span> — Forces management to look ahead and anticipate problems before they arise.</li>
+      <li><span class="kw">Facilitates Coordination</span> — Integrates plans of all departments (sales, production, finance) into a master plan.</li>
+      <li><span class="kw">Better Utilization of Capital</span> — Ensures capital is not wasted on unnecessary activities.</li>
+      <li><span class="kw">Basis for Standard Costing</span> — Budgets form the foundation for establishing standard costs.</li>
+      <li><span class="kw">Increases Productivity</span> — Employees work toward defined targets, improving overall productivity.</li>
+    </ul>
+
+    <div class="side-heading">Limitations of Budgetary Control</div>
+    <ul class="points-list">
+      <li><span class="kw">Based on Estimates</span> — Budgets are forecasts and may not reflect actual conditions precisely.</li>
+      <li><span class="kw">Rigidity</span> — Fixed budgets may become outdated with changed circumstances.</li>
+      <li><span class="kw">Time and Cost</span> — Preparation and maintenance of budgets require considerable time and expense.</li>
+      <li><span class="kw">Not a Substitute for Management</span> — Budgets are tools; they cannot replace skilled managerial judgment.</li>
+      <li><span class="kw">Resistance by Employees</span> — May be viewed as a tool of pressure, causing resentment.</li>
+    </ul>
+
+    <div class="conclusion-box">
+      <strong>Conclusion:</strong> Budgetary control is an indispensable tool of management for planning and control. Despite its limitations, it provides a systematic framework that helps organizations achieve their financial and operational objectives effectively.
+    </div>
+  </div>
+</div>
+
+<!-- Q5 -->
+<div class="q-card" id="q5">
+  <div class="q-header">
+    <div class="q-num">5</div>
+    <div class="q-title">Explain the Types of Budgets.</div>
+    <div class="q-marks">12 Marks</div>
+  </div>
+  <div class="q-body">
+
+    <p style="font-size:13px; margin-bottom:12px;">Budgets can be classified on different bases. The following is a comprehensive classification of all types of budgets:</p>
+
+    <div class="side-heading">Classification of Budgets</div>
+
+    <div class="side-heading" style="font-size:13px; color:#1565c0; border-bottom-color:#90caf9;">A. On the Basis of Time</div>
+    <table class="data-table">
+      <thead><tr><th>Type</th><th>Meaning</th><th>Time Period</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Long-Term Budget</strong></td><td>Covers broad organizational objectives</td><td>3–10 years</td></tr>
+        <tr><td><strong>Short-Term Budget</strong></td><td>Covers day-to-day operational activities</td><td>1 year or less</td></tr>
+        <tr><td><strong>Current Budget</strong></td><td>Budget for the current period with actual conditions</td><td>Weekly/Monthly</td></tr>
+      </tbody>
+    </table>
+
+    <div class="side-heading" style="font-size:13px; color:#1565c0; border-bottom-color:#90caf9;">B. On the Basis of Flexibility</div>
+    <div class="two-col">
+      <div class="mini-box">
+        <h4>🔒 Fixed Budget</h4>
+        <ul>
+          <li>Prepared for a fixed level of activity</li>
+          <li>Does not change with output</li>
+          <li>Simple to prepare</li>
+          <li>Not useful when output fluctuates</li>
+          <li>Example: Admin budget</li>
+        </ul>
+      </div>
+      <div class="mini-box">
+        <h4>🔄 Flexible Budget</h4>
+        <ul>
+          <li>Prepared for various levels of activity</li>
+          <li>Changes with production volume</li>
+          <li>More realistic and useful</li>
+          <li>Useful for variable cost control</li>
+          <li>Example: Production budget</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="side-heading" style="font-size:13px; color:#1565c0; border-bottom-color:#90caf9;">C. On the Basis of Function (Functional Budgets)</div>
+    <ul class="points-list">
+      <li><span class="kw">Sales Budget</span> — Most important functional budget. Forecasts units to be sold and revenue. Prepared by the sales department. Base for all other budgets.</li>
+      <li><span class="kw">Production Budget</span> — Based on sales budget. Plans quantity of goods to be produced. Considers opening and closing stock.</li>
+      <li><span class="kw">Materials/Purchase Budget</span> — Plans quantity and cost of raw materials to be purchased. Based on production budget.</li>
+      <li><span class="kw">Labour Budget</span> — Estimates direct labour requirements — both quantity (hours) and cost.</li>
+      <li><span class="kw">Factory Overhead Budget</span> — Covers all indirect manufacturing costs (power, repairs, depreciation).</li>
+      <li><span class="kw">Administration Budget</span> — Covers administrative and office expenses.</li>
+      <li><span class="kw">Selling & Distribution Budget</span> — Covers advertising, distribution, salesman salaries.</li>
+      <li><span class="kw">Capital Expenditure Budget</span> — Plans for purchase of fixed assets and capital investments.</li>
+      <li><span class="kw">Cash Budget</span> — Most important for liquidity. Shows expected cash receipts and payments. Helps avoid cash shortfalls.</li>
+    </ul>
+
+    <div class="side-heading">D. Master Budget</div>
+    <ul class="points-list">
+      <li>The <span class="kw">Master Budget</span> is the consolidated summary budget that incorporates all functional budgets.</li>
+      <li>It comprises the <strong>Budgeted Profit & Loss Account</strong> and the <strong>Budgeted Balance Sheet</strong>.</li>
+      <li>Prepared by the Budget Controller and approved by top management.</li>
+      <li>Represents the overall plan of the organization.</li>
+    </ul>
+
+    <div class="side-heading">E. Zero-Based Budget (ZBB)</div>
+    <ul class="points-list">
+      <li>Every activity is <span class="kw">justified from scratch</span> — starting from zero base, not last year's figures.</li>
+      <li>Eliminates unnecessary expenditures automatically.</li>
+      <li>Time-consuming but promotes efficiency.</li>
+    </ul>
+
+    <div class="conclusion-box">
+      <strong>Conclusion:</strong> The classification of budgets helps management choose the appropriate budget for their specific needs. While functional budgets address individual departments, the Master Budget provides a comprehensive picture of the organization's financial plan.
+    </div>
+  </div>
+</div>
+
+<!-- Q6 -->
+<div class="q-card" id="q6">
+  <div class="q-header">
+    <div class="q-num">6</div>
+    <div class="q-title">Explain the Procedure for Preparing Budget and Budgetary Control.</div>
+    <div class="q-marks">12 Marks</div>
+  </div>
+  <div class="q-body">
+
+    <div class="side-heading">Procedure for Preparing and Implementing Budgetary Control</div>
+
+    <p style="font-size:13px; margin-bottom:12px;">The procedure for budgetary control can be divided into three phases: <span class="kw">Preparation</span>, <span class="kw">Implementation</span>, and <span class="kw">Control</span>.</p>
+
+    <div class="side-heading" style="font-size:13px; color:#1a7a4a; border-bottom-color:#a5d6a7;">Phase I: Preparatory Steps</div>
+    <ul class="points-list">
+      <li><span class="kw">Step 1 — Setting Objectives</span>: Clearly define organizational goals (profit target, market share, growth rate).</li>
+      <li><span class="kw">Step 2 — Formation of Budget Committee</span>: A committee of heads of all departments + Budget Officer is formed to oversee budget preparation.</li>
+      <li><span class="kw">Step 3 — Appointing Budget Officer</span>: A senior finance executive is appointed as Budget Officer (Controller) to coordinate all activities.</li>
+      <li><span class="kw">Step 4 — Determining Budget Period</span>: Select the time period — usually one financial year (short-term) or 3–5 years (long-term).</li>
+      <li><span class="kw">Step 5 — Establishing Budget Centers</span>: Define responsibility centers (departments/cost centers) that will be held accountable for their budgets.</li>
+      <li><span class="kw">Step 6 — Preparing Budget Manual</span>: A document that defines procedures, responsibilities, timelines, and formats for budget preparation.</li>
+    </ul>
+
+    <div class="side-heading" style="font-size:13px; color:#1a7a4a; border-bottom-color:#a5d6a7;">Phase II: Preparation of Budgets</div>
+    <ul class="points-list">
+      <li><span class="kw">Step 7 — Identify Principal Budget Factor (Key Factor)</span>: Identify the limiting factor (usually sales demand) that restricts output. Prepare its budget first.</li>
+      <li><span class="kw">Step 8 — Preparation of Sales Budget</span>: Based on sales forecasts, past data, market analysis. This is the starting point.</li>
+      <li><span class="kw">Step 9 — Preparation of Production Budget</span>: Based on sales budget + stock requirements.</li>
+      <li><span class="kw">Step 10 — Preparation of Other Functional Budgets</span>: Materials, Labour, Overheads, Cash, Capital Expenditure budgets are prepared.</li>
+      <li><span class="kw">Step 11 — Coordination of Budgets</span>: Budget Officer reconciles all functional budgets for consistency and feasibility.</li>
+      <li><span class="kw">Step 12 — Preparation of Master Budget</span>: All functional budgets are consolidated into the Master Budget (Budgeted P&L + Balance Sheet).</li>
+      <li><span class="kw">Step 13 — Approval</span>: Master Budget is presented to and approved by top management/Board of Directors.</li>
+    </ul>
+
+    <div class="side-heading" style="font-size:13px; color:#1a7a4a; border-bottom-color:#a5d6a7;">Phase III: Control Phase</div>
+    <ul class="points-list">
+      <li><span class="kw">Step 14 — Communicating Budgets</span>: Approved budgets are communicated to all concerned managers and departments.</li>
+      <li><span class="kw">Step 15 — Recording Actual Performance</span>: Actual results are recorded regularly as operations proceed.</li>
+      <li><span class="kw">Step 16 — Comparison</span>: Actual figures are continuously compared with budgeted figures (period-by-period).</li>
+      <li><span class="kw">Step 17 — Variance Analysis</span>: Differences (variances) between actual and budgeted are calculated and analyzed — <strong>Favorable (F)</strong> or <strong>Adverse (A)</strong>.</li>
+      <li><span class="kw">Step 18 — Reporting</span>: Variance reports are submitted to responsible managers for review.</li>
+      <li><span class="kw">Step 19 — Corrective Action</span>: Management investigates causes of adverse variances and takes corrective steps.</li>
+      <li><span class="kw">Step 20 — Budget Revision</span>: If circumstances change significantly, budgets are revised to remain relevant.</li>
+    </ul>
+
+    <div class="formula-box">
+      <div class="f-label">Key Formula</div>
+      Variance = Budgeted Amount − Actual Amount<br>
+      If Positive → Favorable Variance (F)<br>
+      If Negative → Adverse/Unfavorable Variance (A)
+    </div>
+
+    <div class="conclusion-box">
+      <strong>Conclusion:</strong> The budgetary control procedure is a dynamic cycle of planning, comparing, and correcting. Its effectiveness depends on the quality of forecasts, participation of all levels of management, and prompt corrective action on adverse variances.
+    </div>
+  </div>
+</div>
+
+<!-- Q7 -->
+<div class="q-card" id="q7">
+  <div class="q-header">
+    <div class="q-num">7</div>
+    <div class="q-title">Define Financial Statements and explain its Features, Objectives & Advantages.</div>
+    <div class="q-marks">12 Marks</div>
+  </div>
+  <div class="q-body">
+
+    <div class="definition-box">
+      <div class="def-label">Definition</div>
+      <p>"<strong>Financial Statements</strong> are written records that convey the financial activities and conditions of a business or entity. They include the Balance Sheet, Income Statement, Cash Flow Statement, and Statement of Changes in Equity."</p>
+    </div>
+    <p style="font-size:13px; margin-top:8px; margin-bottom:10px;"><span class="kw">Financial Statements</span> are the end product of the accounting process. They summarize a company's financial position and results of operations over a specific period.</p>
+
+    <div class="side-heading">Types of Financial Statements</div>
+    <table class="data-table">
+      <thead><tr><th>Statement</th><th>Purpose</th><th>Shows</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Balance Sheet</strong></td><td>Financial Position</td><td>Assets, Liabilities, and Capital at a point in time</td></tr>
+        <tr><td><strong>Income Statement (P&L)</strong></td><td>Financial Performance</td><td>Revenue, Expenses, and Net Profit/Loss over a period</td></tr>
+        <tr><td><strong>Cash Flow Statement</strong></td><td>Cash Movements</td><td>Cash inflows and outflows (Operating, Investing, Financing)</td></tr>
+        <tr><td><strong>Statement of Changes in Equity</strong></td><td>Equity Changes</td><td>Changes in owner's equity during the period</td></tr>
+      </tbody>
+    </table>
+
+    <div class="side-heading">Features of Financial Statements</div>
+    <ul class="points-list">
+      <li><span class="kw">Recorded Facts</span> — Based on actual recorded accounting data, not estimates (except provisions).</li>
+      <li><span class="kw">Accounting Conventions</span> — Prepared based on conventions like conservatism, consistency, and materiality.</li>
+      <li><span class="kw">Postulates/Assumptions</span> — Based on going concern, accrual, and matching concepts.</li>
+      <li><span class="kw">Personal Judgment</span> — Estimation in areas like depreciation, bad debts involves personal judgment.</li>
+      <li><span class="kw">Historical in Nature</span> — Reflect past performance; do not show current market values.</li>
+      <li><span class="kw">Relevance</span> — Relevant to multiple users: investors, creditors, management, and government.</li>
+      <li><span class="kw">Reliability</span> — Based on verifiable accounting records.</li>
+      <li><span class="kw">Comparability</span> — Consistent preparation allows comparison across periods and companies.</li>
+    </ul>
+
+    <div class="side-heading">Objectives of Financial Statements</div>
+    <ul class="points-list">
+      <li><span class="kw">To Provide Financial Information</span> — Useful for investors, creditors, and other stakeholders.</li>
+      <li><span class="kw">To Show Financial Position</span> — Balance sheet reveals the true state of assets, liabilities, and net worth.</li>
+      <li><span class="kw">To Disclose Earning Capacity</span> — Profit & Loss account shows the firm's ability to generate profits.</li>
+      <li><span class="kw">To Assess Solvency</span> — Helps assess the ability to meet short-term and long-term obligations.</li>
+      <li><span class="kw">To Facilitate Decision Making</span> — Provides data for managerial, investment, and lending decisions.</li>
+      <li><span class="kw">To Enable Comparison</span> — Comparative analysis helps evaluate performance trends over time.</li>
+      <li><span class="kw">Legal Compliance</span> — Satisfies statutory requirements under the Companies Act.</li>
+    </ul>
+
+    <div class="side-heading">Advantages of Financial Statements</div>
+    <ul class="points-list">
+      <li><span class="kw">Investment Decisions</span> — Investors use financial statements to assess return and risk before investing.</li>
+      <li><span class="kw">Credit Decisions</span> — Banks and creditors evaluate creditworthiness using balance sheet ratios.</li>
+      <li><span class="kw">Tax Purposes</span> — Basis for computing taxable income and filing tax returns.</li>
+      <li><span class="kw">Management Planning</span> — Useful for budgeting, forecasting, and setting targets.</li>
+      <li><span class="kw">Employee Evaluation</span> — Employees assess company stability for job security and bonus decisions.</li>
+      <li><span class="kw">Government & Regulatory Use</span> — Government uses them for economic policy and regulation.</li>
+    </ul>
+
+    <div class="side-heading">Limitations of Financial Statements</div>
+    <ul class="points-list">
+      <li><span class="kw">Historical Data</span> — Do not reflect current market values.</li>
+      <li><span class="kw">Qualitative Factors Ignored</span> — Employee morale, brand value, customer loyalty are not reflected.</li>
+      <li><span class="kw">Window Dressing</span> — Accounts may be manipulated to present a favorable picture.</li>
+      <li><span class="kw">Price Level Changes</span> — Do not account for inflation or deflation.</li>
+    </ul>
+
+    <div class="conclusion-box">
+      <strong>Conclusion:</strong> Financial statements are the mirror of a business's financial health. Despite their limitations, they remain the most important tools for communicating financial performance to stakeholders and supporting rational economic decisions.
+    </div>
+  </div>
+</div>
+
+<!-- Q8 -->
+<div class="q-card" id="q8">
+  <div class="q-header">
+    <div class="q-num">8</div>
+    <div class="q-title">Explain the Various Types of Financial Statement Analysis.</div>
+    <div class="q-marks">12 Marks</div>
+  </div>
+  <div class="q-body">
+
+    <div class="definition-box">
+      <div class="def-label">Definition</div>
+      <p>"<strong>Financial Statement Analysis</strong> is the process of critical examination of the financial data given in the financial statements in order to understand and make decisions regarding the operations of the firm." — <strong>Metcalf & Titard</strong></p>
+    </div>
+
+    <div class="side-heading">A. Types Based on Material Used</div>
+    <div class="two-col">
+      <div class="mini-box">
+        <h4>🏢 External Analysis</h4>
+        <ul>
+          <li>Done by outside parties</li>
+          <li>Based on published statements</li>
+          <li>Limited access to data</li>
+          <li>Example: Investors, creditors, analysts</li>
+        </ul>
+      </div>
+      <div class="mini-box">
+        <h4>🔍 Internal Analysis</h4>
+        <ul>
+          <li>Done by internal management</li>
+          <li>Full access to all records</li>
+          <li>More detailed and comprehensive</li>
+          <li>Example: Management reports</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="side-heading">B. Types Based on Modus Operandi</div>
+    <div class="two-col">
+      <div class="mini-box">
+        <h4>📊 Horizontal Analysis</h4>
+        <ul>
+          <li>Comparison over multiple years</li>
+          <li>Also called <strong>Dynamic Analysis</strong></li>
+          <li>Shows trends over time</li>
+          <li>Comparative statements</li>
+          <li>Trend percentages used</li>
+        </ul>
+      </div>
+      <div class="mini-box">
+        <h4>📐 Vertical Analysis</h4>
+        <ul>
+          <li>Analysis at one point in time</li>
+          <li>Also called <strong>Static Analysis</strong></li>
+          <li>Items expressed as % of base</li>
+          <li>Common size statements</li>
+          <li>Cross-sectional comparison</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="side-heading">C. Tools and Methods of Financial Statement Analysis</div>
+
+    <ul class="points-list">
+      <li><span class="kw">1. Comparative Financial Statements</span> — Statements of two or more years placed side by side for comparison. Shows absolute changes and percentage changes. Useful for identifying trends.</li>
+
+      <li><span class="kw">2. Common Size Statements</span> — All items expressed as a percentage of a base figure (Net Sales for P&L, Total Assets for Balance Sheet). Enables cross-sectional comparison between companies of different sizes.</li>
+
+      <li><span class="kw">3. Trend Analysis</span> — Financial data over several years is expressed as percentages relative to a base year (= 100). Reveals long-term trends in sales, profits, and costs.</li>
+
+      <li><span class="kw">4. Ratio Analysis</span> — Mathematical relationship between two related items. Includes liquidity ratios, profitability ratios, activity ratios, and solvency ratios. Most widely used analytical tool.</li>
+
+      <li><span class="kw">5. Funds Flow Statement</span> — Shows the sources and uses of funds (working capital) during a period. Reveals changes in financial position — long-term analysis tool.</li>
+
+      <li><span class="kw">6. Cash Flow Statement</span> — Shows actual cash inflows and outflows classified into operating, investing, and financing activities. Short-term liquidity analysis tool.</li>
+
+      <li><span class="kw">7. CVP Analysis (Cost-Volume-Profit)</span> — Examines relationship between costs, volume, and profit. Useful for break-even analysis and profit planning.</li>
+    </ul>
+
+    <div class="side-heading">Comparison of Horizontal vs Vertical Analysis</div>
+    <table class="data-table">
+      <thead><tr><th>Basis</th><th>Horizontal Analysis</th><th>Vertical Analysis</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Also Known As</strong></td><td>Dynamic/Time-Series Analysis</td><td>Static/Cross-Sectional Analysis</td></tr>
+        <tr><td><strong>Comparison</strong></td><td>Across different time periods</td><td>Within same time period</td></tr>
+        <tr><td><strong>Base</strong></td><td>One year as base year</td><td>Total Assets or Net Sales as base</td></tr>
+        <tr><td><strong>Purpose</strong></td><td>Trend identification</td><td>Structural analysis</td></tr>
+        <tr><td><strong>Tool Used</strong></td><td>Comparative statements, Trend analysis</td><td>Common size statements</td></tr>
+      </tbody>
+    </table>
+
+    <div class="conclusion-box">
+      <strong>Conclusion:</strong> Each type of financial statement analysis serves a specific purpose. A combination of horizontal, vertical, and ratio analysis provides the most comprehensive picture of a firm's financial health, helping stakeholders make well-informed economic decisions.
+    </div>
+  </div>
+</div>
+
+<!-- Q9 -->
+<div class="q-card" id="q9">
+  <div class="q-header">
+    <div class="q-num">9</div>
+    <div class="q-title">What is Ratio and Ratio Analysis? Explain its Objectives.</div>
+    <div class="q-marks">12 Marks</div>
+  </div>
+  <div class="q-body">
+
+    <div class="definition-box">
+      <div class="def-label">Definition of Ratio</div>
+      <p>"A <strong>Ratio</strong> is a mathematical relationship between two related items expressed in quantitative terms as a fraction, proportion, percentage, or rate." — <strong>J. Batty</strong></p>
+    </div>
+    <div class="definition-box" style="background: linear-gradient(135deg, #f0fff4, #e0f7ea); border-color: #1a7a4a;">
+      <div class="def-label" style="color:#1a7a4a;">Definition of Ratio Analysis</div>
+      <p>"<strong>Ratio Analysis</strong> is a technique of analysis and interpretation of financial statements. It is a process of establishing and interpreting various ratios for helping in making certain decisions."</p>
+    </div>
+
+    <div class="side-heading">Classification of Ratios</div>
+    <table class="data-table">
+      <thead><tr><th>Category</th><th>Ratios Included</th><th>Purpose</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Liquidity Ratios</strong></td><td>Current Ratio, Quick Ratio, Absolute Liquid Ratio</td><td>Short-term solvency</td></tr>
+        <tr><td><strong>Profitability Ratios</strong></td><td>Gross Profit Ratio, Net Profit Ratio, ROI, EPS</td><td>Earning capacity</td></tr>
+        <tr><td><strong>Activity/Turnover Ratios</strong></td><td>Debtors Turnover, Stock Turnover, Asset Turnover</td><td>Operational efficiency</td></tr>
+        <tr><td><strong>Leverage/Solvency Ratios</strong></td><td>Debt-Equity Ratio, Interest Coverage, Capital Gearing</td><td>Long-term stability</td></tr>
+      </tbody>
+    </table>
+
+    <div class="side-heading">Important Formulas</div>
+    <div class="formula-box">
+      <div class="f-label">Key Ratio Formulas</div>
+      Current Ratio = Current Assets / Current Liabilities (Standard: 2:1)<br>
+      Quick Ratio = Quick Assets / Current Liabilities (Standard: 1:1)<br>
+      Gross Profit Ratio = (Gross Profit / Net Sales) × 100<br>
+      Net Profit Ratio = (Net Profit / Net Sales) × 100<br>
+      Debt-Equity Ratio = Total Debt / Shareholders' Equity<br>
+      Return on Investment = (Net Profit / Capital Employed) × 100
+    </div>
+
+    <div class="side-heading">Objectives of Ratio Analysis</div>
+    <ul class="points-list">
+      <li><span class="kw">To Know the Liquidity Position</span> — Current ratio and quick ratio help assess whether the firm can meet its short-term obligations on time.</li>
+      <li><span class="kw">To Assess Long-Term Solvency</span> — Leverage ratios like debt-equity ratio reveal the firm's ability to repay long-term debts.</li>
+      <li><span class="kw">To Measure Profitability</span> — Profitability ratios measure the efficiency of management in generating profits from operations.</li>
+      <li><span class="kw">To Evaluate Operating Efficiency</span> — Activity ratios like inventory turnover and debtors turnover measure how efficiently resources are utilized.</li>
+      <li><span class="kw">To Facilitate Comparison</span> — Enables inter-firm comparison (with competitors) and intra-firm comparison (across years).</li>
+      <li><span class="kw">To Aid in Decision Making</span> — Management uses ratios for investment, financing, and operating decisions.</li>
+      <li><span class="kw">To Predict Future Trends</span> — Trend ratios help forecast future financial performance based on historical patterns.</li>
+      <li><span class="kw">To Communicate Financial Health</span> — Ratios communicate the financial position of the firm to shareholders, creditors, and other stakeholders.</li>
+    </ul>
+
+    <div class="side-heading">Advantages of Ratio Analysis</div>
+    <ul class="points-list">
+      <li>Simplifies complex financial data into understandable numbers.</li>
+      <li>Enables quick comparison across companies and periods.</li>
+      <li>Highlights strengths and weaknesses of the firm.</li>
+      <li>Forms basis for credit and investment decisions.</li>
+    </ul>
+
+    <div class="side-heading">Limitations of Ratio Analysis</div>
+    <ul class="points-list">
+      <li><span class="kw">Based on Historical Data</span> — Does not reflect current market conditions.</li>
+      <li><span class="kw">Different Accounting Policies</span> — Makes inter-firm comparison unreliable.</li>
+      <li><span class="kw">Window Dressing</span> — Ratios can be manipulated by changing accounting treatments.</li>
+      <li><span class="kw">Ignores Qualitative Factors</span> — Cannot capture management quality, brand value, employee morale.</li>
+      <li><span class="kw">No Standard Ratios</span> — Except for a few, standard benchmarks vary by industry.</li>
+    </ul>
+
+    <div class="conclusion-box">
+      <strong>Conclusion:</strong> Ratio Analysis is one of the most powerful and widely used tools of financial analysis. When used carefully and in conjunction with other analytical tools, it provides valuable insights into the financial health, performance, and prospects of an organization.
+    </div>
+  </div>
+</div>
+
+<!-- Q10 -->
+<div class="q-card" id="q10">
+  <div class="q-header">
+    <div class="q-num">10</div>
+    <div class="q-title">What is Funds and Funds Flow Statement? Explain its Importance and Limitations.</div>
+    <div class="q-marks">12 Marks</div>
+  </div>
+  <div class="q-body">
+
+    <div class="definition-box">
+      <div class="def-label">Meaning of Funds</div>
+      <p>"<strong>Funds</strong> refers to <strong>Net Working Capital</strong>, i.e., the excess of Current Assets over Current Liabilities." <br><br>Funds = Current Assets − Current Liabilities</p>
+    </div>
+    <div class="definition-box" style="background: linear-gradient(135deg, #f0fff4, #e0f7ea); border-color: #1a7a4a;">
+      <div class="def-label" style="color:#1a7a4a;">Definition of Funds Flow Statement</div>
+      <p>"A <strong>Funds Flow Statement</strong> is a statement which shows the movement of funds and is a report of the financial operations of the business undertaking. It indicates various means by which funds were obtained during a particular period and ways in which these funds were employed."</p>
+    </div>
+
+    <div class="side-heading">Components of Funds Flow Statement</div>
+    <div class="two-col">
+      <div class="mini-box">
+        <h4>📥 Sources of Funds (Inflows)</h4>
+        <ul>
+          <li>Issue of shares/debentures</li>
+          <li>Long-term borrowings</li>
+          <li>Sale of fixed assets</li>
+          <li>Fund from operations (profit)</li>
+          <li>Decrease in working capital</li>
+        </ul>
+      </div>
+      <div class="mini-box">
+        <h4>📤 Application of Funds (Outflows)</h4>
+        <ul>
+          <li>Purchase of fixed assets</li>
+          <li>Redemption of debentures/shares</li>
+          <li>Repayment of loans</li>
+          <li>Payment of dividends/tax</li>
+          <li>Increase in working capital</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="side-heading">Importance of Funds Flow Statement</div>
+    <ul class="points-list">
+      <li><span class="kw">Indicates Sources and Applications</span> — Shows where funds came from and how they were used, enabling management to evaluate fund utilization.</li>
+      <li><span class="kw">Explains Changes in Working Capital</span> — Helps understand why working capital has increased or decreased between two periods.</li>
+      <li><span class="kw">Useful for Long-Term Financial Planning</span> — Helps in planning future capital requirements and financing strategies.</li>
+      <li><span class="kw">Assessment of Financial Strength</span> — Reveals the ability of the company to generate and use funds effectively.</li>
+      <li><span class="kw">Useful to Lenders and Investors</span> — Banks and investors use FFS to assess creditworthiness and investment viability.</li>
+      <li><span class="kw">Supplement to Financial Statements</span> — Provides additional insights not visible from the Balance Sheet alone.</li>
+      <li><span class="kw">Evaluates Management Efficiency</span> — Shows how effectively management has mobilized and deployed funds.</li>
+    </ul>
+
+    <div class="side-heading">Limitations of Funds Flow Statement</div>
+    <ul class="points-list">
+      <li><span class="kw">Not Useful for Short-Term Analysis</span> — Based on long-term fund movements; does not address day-to-day cash needs.</li>
+      <li><span class="kw">Does Not Show Cash Position</span> — Funds refer to working capital, not cash. Cash position requires a separate CFS.</li>
+      <li><span class="kw">Based on Historical Data</span> — Reflects past performance; cannot predict future accurately.</li>
+      <li><span class="kw">Not a Substitute for Income Statement</span> — Cannot replace the P&L account as it does not show profitability directly.</li>
+      <li><span class="kw">Window Dressing Possible</span> — Manipulation of current assets/liabilities can distort the statement.</li>
+      <li><span class="kw">Complex Preparation</span> — Requires detailed working and preparation of Statement of Changes in Working Capital.</li>
+    </ul>
+
+    <div class="side-heading">Format of Funds Flow Statement</div>
+    <table class="data-table">
+      <thead><tr><th>Sources of Funds</th><th>₹</th><th>Application of Funds</th><th>₹</th></tr></thead>
+      <tbody>
+        <tr><td>Issue of Share Capital</td><td>XX</td><td>Purchase of Fixed Assets</td><td>XX</td></tr>
+        <tr><td>Issue of Debentures/Loans</td><td>XX</td><td>Redemption of Debentures</td><td>XX</td></tr>
+        <tr><td>Sale of Fixed Assets</td><td>XX</td><td>Payment of Dividend/Tax</td><td>XX</td></tr>
+        <tr><td>Funds from Operations</td><td>XX</td><td>Repayment of Loans</td><td>XX</td></tr>
+        <tr><td>Decrease in Working Capital</td><td>XX</td><td>Increase in Working Capital</td><td>XX</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>XX</strong></td><td><strong>Total</strong></td><td><strong>XX</strong></td></tr>
+      </tbody>
+    </table>
+
+    <div class="conclusion-box">
+      <strong>Conclusion:</strong> The Funds Flow Statement is a vital tool for long-term financial analysis. It bridges the gap between two Balance Sheets by explaining the movement of working capital, thereby helping management, lenders, and investors evaluate the financial policies and performance of the organization.
+    </div>
+  </div>
+</div>
+
+<!-- Q11 -->
+<div class="q-card" id="q11">
+  <div class="q-header">
+    <div class="q-num">11</div>
+    <div class="q-title">Define Working Capital. Explain Advantages and Procedure for Preparing Statement of Changes in Working Capital.</div>
+    <div class="q-marks">12 Marks</div>
+  </div>
+  <div class="q-body">
+
+    <div class="definition-box">
+      <div class="def-label">Definition of Working Capital</div>
+      <p>"<strong>Working Capital</strong> refers to the funds invested in current assets — the capital needed to carry on day-to-day operations of the business. It is usually computed as Current Assets minus Current Liabilities."</p>
+    </div>
+
+    <div class="side-heading">Concepts of Working Capital</div>
+    <div class="two-col">
+      <div class="mini-box">
+        <h4>Gross Working Capital</h4>
+        <ul>
+          <li>Total of all current assets</li>
+          <li>Stock + Debtors + Cash + Bank + Advances</li>
+          <li>Represents total investment in CA</li>
+        </ul>
+      </div>
+      <div class="mini-box">
+        <h4>Net Working Capital</h4>
+        <ul>
+          <li>Current Assets − Current Liabilities</li>
+          <li>Can be positive or negative</li>
+          <li>Positive NWC → Good liquidity</li>
+        </ul>
+      </div>
+    </div>
+    <div class="formula-box">
+      <div class="f-label">Formula</div>
+      Net Working Capital = Current Assets − Current Liabilities
+    </div>
+
+    <div class="side-heading">Components of Working Capital</div>
+    <div class="two-col">
+      <div class="mini-box">
+        <h4>Current Assets (CA)</h4>
+        <ul>
+          <li>Cash and Bank Balances</li>
+          <li>Sundry Debtors</li>
+          <li>Inventories (Stock)</li>
+          <li>Bills Receivable</li>
+          <li>Short-term Investments</li>
+          <li>Prepaid Expenses</li>
+        </ul>
+      </div>
+      <div class="mini-box">
+        <h4>Current Liabilities (CL)</h4>
+        <ul>
+          <li>Sundry Creditors</li>
+          <li>Bills Payable</li>
+          <li>Bank Overdraft</li>
+          <li>Outstanding Expenses</li>
+          <li>Short-term Loans</li>
+          <li>Advances from Customers</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="side-heading">Advantages of Adequate Working Capital</div>
+    <ul class="points-list">
+      <li><span class="kw">Ensures Liquidity</span> — Enables the firm to meet its short-term obligations promptly without disruption.</li>
+      <li><span class="kw">Smooth Business Operations</span> — Sufficient working capital ensures uninterrupted production and sales activities.</li>
+      <li><span class="kw">Better Creditworthiness</span> — A firm with adequate WC enjoys better credit ratings and can negotiate favorable terms.</li>
+      <li><span class="kw">Ability to Face Emergencies</span> — Can handle unexpected losses, demand fluctuations, or market downturns.</li>
+      <li><span class="kw">Improved Employee Morale</span> — Timely payment of salaries and wages keeps employees motivated.</li>
+      <li><span class="kw">Exploitation of Market Opportunities</span> — Enables the firm to take advantage of bulk purchase discounts and market opportunities.</li>
+      <li><span class="kw">Better Returns</span> — Prevents idle resources and ensures productive use of all available capital.</li>
+    </ul>
+
+    <div class="side-heading">Procedure for Preparing Statement of Changes in Working Capital</div>
+    <ul class="points-list">
+      <li><span class="kw">Step 1</span>: Take two consecutive Balance Sheets (Current Year and Previous Year).</li>
+      <li><span class="kw">Step 2</span>: List all Current Assets and Current Liabilities for both years.</li>
+      <li><span class="kw">Step 3</span>: Calculate the increase or decrease in each item.</li>
+      <li><span class="kw">Step 4</span>: Determine the effect on Working Capital using the following rules:</li>
+    </ul>
+
+    <table class="data-table">
+      <thead><tr><th>Change in Item</th><th>Effect on Working Capital</th></tr></thead>
+      <tbody>
+        <tr><td>Increase in Current Asset</td><td style="color: #1a7a4a; font-weight:700;">Increase in WC ↑</td></tr>
+        <tr><td>Decrease in Current Asset</td><td style="color: #c0392b; font-weight:700;">Decrease in WC ↓</td></tr>
+        <tr><td>Increase in Current Liability</td><td style="color: #c0392b; font-weight:700;">Decrease in WC ↓</td></tr>
+        <tr><td>Decrease in Current Liability</td><td style="color: #1a7a4a; font-weight:700;">Increase in WC ↑</td></tr>
+      </tbody>
+    </table>
+
+    <div class="side-heading">Proforma: Statement of Changes in Working Capital</div>
+    <table class="data-table">
+      <thead>
+        <tr><th>Particulars</th><th>Previous Year (₹)</th><th>Current Year (₹)</th><th>Increase in WC (₹)</th><th>Decrease in WC (₹)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td colspan="5" style="background:#e8eaf6; font-weight:700; font-size:12px;">CURRENT ASSETS</td></tr>
+        <tr><td>Stock/Inventory</td><td>XX</td><td>XX</td><td>XX / —</td><td>— / XX</td></tr>
+        <tr><td>Sundry Debtors</td><td>XX</td><td>XX</td><td>XX / —</td><td>— / XX</td></tr>
+        <tr><td>Cash & Bank</td><td>XX</td><td>XX</td><td>XX / —</td><td>— / XX</td></tr>
+        <tr><td>Bills Receivable</td><td>XX</td><td>XX</td><td>XX / —</td><td>— / XX</td></tr>
+        <tr><td colspan="5" style="background:#fce4ec; font-weight:700; font-size:12px;">CURRENT LIABILITIES</td></tr>
+        <tr><td>Sundry Creditors</td><td>XX</td><td>XX</td><td>— / XX</td><td>XX / —</td></tr>
+        <tr><td>Bills Payable</td><td>XX</td><td>XX</td><td>— / XX</td><td>XX / —</td></tr>
+        <tr><td>Outstanding Expenses</td><td>XX</td><td>XX</td><td>— / XX</td><td>XX / —</td></tr>
+        <tr><td><strong>Net Working Capital</strong></td><td>XX</td><td>XX</td><td>XX</td><td>XX</td></tr>
+        <tr><td><strong>Net Increase/Decrease in WC</strong></td><td></td><td></td><td><strong>Balancing</strong></td><td><strong>Figure</strong></td></tr>
+      </tbody>
+    </table>
+
+    <div class="conclusion-box">
+      <strong>Conclusion:</strong> Adequate working capital is the lifeline of a business. The Statement of Changes in Working Capital systematically records the changes in current assets and liabilities to determine the net increase or decrease in working capital, which becomes an essential input for the Funds Flow Statement.
+    </div>
+  </div>
+</div>
+
+<!-- Q12 -->
+<div class="q-card" id="q12">
+  <div class="q-header">
+    <div class="q-num">12</div>
+    <div class="q-title">What is Cash Flow Statement? Explain the Advantages and Limitations of Cash Flow Statement.</div>
+    <div class="q-marks">12 Marks</div>
+  </div>
+  <div class="q-body">
+
+    <div class="definition-box">
+      <div class="def-label">Definition (AS-3)</div>
+      <p>"A <strong>Cash Flow Statement</strong> is a statement which summarizes the sources and uses of cash. It shows the movement of cash and cash equivalents during a specified period classified into <strong>Operating, Investing, and Financing</strong> activities."</p>
+    </div>
+
+    <div class="side-heading">Meaning of Cash and Cash Equivalents</div>
+    <ul class="points-list">
+      <li><span class="kw">Cash</span>: Cash on hand + demand deposits with banks.</li>
+      <li><span class="kw">Cash Equivalents</span>: Short-term, highly liquid investments convertible to known cash amounts within 3 months (e.g., treasury bills, commercial paper).</li>
+    </ul>
+
+    <div class="side-heading">Advantages of Cash Flow Statement</div>
+    <ul class="points-list">
+      <li><span class="kw">Shows Actual Cash Position</span> — Unlike the income statement, it reveals the actual cash available at any point in time.</li>
+      <li><span class="kw">Short-Term Financial Planning</span> — Helps management plan cash requirements and avoid cash shortfalls.</li>
+      <li><span class="kw">Evaluation of Liquidity</span> — Accurately measures the firm's ability to generate cash from operations.</li>
+      <li><span class="kw">Comparison with Budget</span> — Actual cash flows can be compared with cash budgets to identify deviations.</li>
+      <li><span class="kw">Useful to Investors and Creditors</span> — Investors assess dividend-paying ability; creditors assess repayment capability.</li>
+      <li><span class="kw">Identifies Cash Surplus/Deficit</span> — Reveals periods of excess cash (for investment) or deficit (needing financing).</li>
+      <li><span class="kw">Supplement to Financial Statements</span> — Provides additional information not available from the Balance Sheet or P&L.</li>
+      <li><span class="kw">Useful for Valuation</span> — Discounted Cash Flow (DCF) method of business valuation uses CFS data.</li>
+      <li><span class="kw">Regulatory Compliance</span> — Mandatory for listed companies under AS-3 / IND AS-7.</li>
+    </ul>
+
+    <div class="side-heading">Limitations of Cash Flow Statement</div>
+    <ul class="points-list">
+      <li><span class="kw">Does Not Show Profitability</span> — A firm can show positive cash flow but still be loss-making (e.g., through asset sales).</li>
+      <li><span class="kw">Ignores Non-Cash Transactions</span> — Important transactions like credit sales, depreciation are not directly shown.</li>
+      <li><span class="kw">Not a Substitute for Income Statement</span> — Cannot replace the P&L account for assessing business performance.</li>
+      <li><span class="kw">Manipulation Possible</span> — Timing of receipts and payments can be manipulated to improve appearance.</li>
+      <li><span class="kw">Based on Cash Concept</span> — Ignores the accrual concept; does not match income with expenses.</li>
+      <li><span class="kw">Limited Scope</span> — Focuses only on cash movements; ignores long-term financial position.</li>
+      <li><span class="kw">Does Not Show Quality of Earnings</span> — High cash flows may come from one-time sales or borrowings, not sustainable operations.</li>
+    </ul>
+
+    <div class="conclusion-box">
+      <strong>Conclusion:</strong> The Cash Flow Statement is an essential tool for short-term financial analysis and liquidity management. While it has limitations, when used alongside the Income Statement and Balance Sheet, it provides a complete picture of the firm's financial health.
+    </div>
+  </div>
+</div>
+
+<!-- Q13 -->
+<div class="q-card" id="q13">
+  <div class="q-header">
+    <div class="q-num">13</div>
+    <div class="q-title">Explain the Procedure of Preparing Cash Flow Statement.</div>
+    <div class="q-marks">12 Marks</div>
+  </div>
+  <div class="q-body">
+
+    <p style="font-size:13px; margin-bottom:10px;">The Cash Flow Statement is prepared as per <span class="kw">Accounting Standard AS-3 (Revised)</span> and classified into three activities:</p>
+
+    <div class="side-heading">Structure of Cash Flow Statement</div>
+    <div class="formula-box">
+      <div class="f-label">Basic Structure</div>
+      Cash Flow from Operating Activities ............. (+/−) XX<br>
+      Cash Flow from Investing Activities ............... (+/−) XX<br>
+      Cash Flow from Financing Activities .............. (+/−) XX<br>
+      ──────────────────────────────────────────────────────<br>
+      Net Increase / Decrease in Cash & Cash Equivalents ... XX<br>
+      Add: Opening Cash & Cash Equivalents ................. XX<br>
+      ──────────────────────────────────────────────────────<br>
+      <strong>Closing Cash & Cash Equivalents ................... XX</strong>
+    </div>
+
+    <div class="side-heading">Step 1: Cash Flow from Operating Activities (Indirect Method)</div>
+    <ul class="points-list">
+      <li>Start with <span class="kw">Net Profit before Tax</span> (from P&L Account).</li>
+      <li><strong>Add back Non-Cash/Non-Operating Items:</strong> Depreciation, Amortization, Goodwill written off, Preliminary expenses written off, Provision for doubtful debts.</li>
+      <li><strong>Adjust for Non-Operating Items:</strong> Add: Loss on sale of assets | Less: Profit on sale of assets. Add: Interest paid | Less: Interest/Dividend received.</li>
+      <li><strong>Adjust for Changes in Working Capital:</strong><br>
+        → Increase in CA → Deduct<br>
+        → Decrease in CA → Add<br>
+        → Increase in CL → Add<br>
+        → Decrease in CL → Deduct</li>
+      <li><strong>Less:</strong> Tax Paid, Interest Paid</li>
+      <li>= <span class="kw">Net Cash from Operating Activities (A)</span></li>
+    </ul>
+
+    <div class="side-heading">Step 2: Cash Flow from Investing Activities</div>
+    <ul class="points-list">
+      <li><strong>Cash Outflows (Deduct):</strong>
+        <br>— Purchase of Fixed Assets (Land, Building, Plant, Machinery)
+        <br>— Purchase of Investments (Shares, Debentures of other companies)
+        <br>— Advances/Loans given to others</li>
+      <li><strong>Cash Inflows (Add):</strong>
+        <br>— Sale of Fixed Assets
+        <br>— Sale of Investments
+        <br>— Interest Received on investments
+        <br>— Dividend Received
+        <br>— Repayment of loans by others</li>
+      <li>= <span class="kw">Net Cash from Investing Activities (B)</span></li>
+    </ul>
+
+    <div class="side-heading">Step 3: Cash Flow from Financing Activities</div>
+    <ul class="points-list">
+      <li><strong>Cash Inflows (Add):</strong>
+        <br>— Issue of Equity/Preference Shares (at premium too)
+        <br>— Issue of Debentures/Bonds
+        <br>— Proceeds from Long-term Loans</li>
+      <li><strong>Cash Outflows (Deduct):</strong>
+        <br>— Redemption of Debentures/Preference Shares
+        <br>— Repayment of Long-term Loans
+        <br>— Payment of Dividends (Equity + Preference)
+        <br>— Payment of Interest on Loans/Debentures</li>
+      <li>= <span class="kw">Net Cash from Financing Activities (C)</span></li>
+    </ul>
+
+    <div class="side-heading">Step 4: Compute Net Change in Cash</div>
+    <div class="formula-box">
+      <div class="f-label">Final Calculation</div>
+      Net Change in Cash = A + B + C<br>
+      Closing Cash = Opening Cash + Net Change in Cash
+    </div>
+
+    <div class="side-heading">Proforma of Cash Flow Statement</div>
+    <table class="data-table">
+      <thead><tr><th>Particulars</th><th>₹</th><th>₹</th></tr></thead>
+      <tbody>
+        <tr><td colspan="3" style="background:#e8eaf6; font-weight:700;">A. Cash Flow from Operating Activities</td></tr>
+        <tr><td>Net Profit before Tax</td><td></td><td>XX</td></tr>
+        <tr><td>Add: Depreciation</td><td>XX</td><td></td></tr>
+        <tr><td>Add: Loss on Sale of Assets</td><td>XX</td><td></td></tr>
+        <tr><td>Less: Profit on Sale of Assets</td><td>(XX)</td><td></td></tr>
+        <tr><td>Changes in Working Capital (Net)</td><td>XX</td><td></td></tr>
+        <tr><td>Less: Tax Paid</td><td>(XX)</td><td></td></tr>
+        <tr><td><strong>Net Cash from Operating Activities (A)</strong></td><td></td><td><strong>XX</strong></td></tr>
+        <tr><td colspan="3" style="background:#fce4ec; font-weight:700;">B. Cash Flow from Investing Activities</td></tr>
+        <tr><td>Purchase of Fixed Assets</td><td></td><td>(XX)</td></tr>
+        <tr><td>Sale of Fixed Assets</td><td></td><td>XX</td></tr>
+        <tr><td><strong>Net Cash from Investing Activities (B)</strong></td><td></td><td><strong>XX</strong></td></tr>
+        <tr><td colspan="3" style="background:#e8f5e9; font-weight:700;">C. Cash Flow from Financing Activities</td></tr>
+        <tr><td>Issue of Share Capital</td><td></td><td>XX</td></tr>
+        <tr><td>Repayment of Loans</td><td></td><td>(XX)</td></tr>
+        <tr><td>Dividend Paid</td><td></td><td>(XX)</td></tr>
+        <tr><td><strong>Net Cash from Financing Activities (C)</strong></td><td></td><td><strong>XX</strong></td></tr>
+        <tr><td><strong>Net Increase/Decrease in Cash (A+B+C)</strong></td><td></td><td><strong>XX</strong></td></tr>
+        <tr><td>Add: Opening Cash & Cash Equivalents</td><td></td><td>XX</td></tr>
+        <tr><td><strong>Closing Cash & Cash Equivalents</strong></td><td></td><td><strong>XX</strong></td></tr>
+      </tbody>
+    </table>
+
+    <div class="conclusion-box">
+      <strong>Conclusion:</strong> The CFS preparation procedure under AS-3 provides a structured way to analyze cash movements. The Indirect Method (starting from Net Profit) is the most commonly used method in practice as it is easier to prepare from available accounting records.
+    </div>
+  </div>
+</div>
+
+<!-- Q14 -->
+<div class="q-card" id="q14">
+  <div class="q-header">
+    <div class="q-num">14</div>
+    <div class="q-title">What are the Different Types of Cash Flow Statements?</div>
+    <div class="q-marks">12 Marks</div>
+  </div>
+  <div class="q-body">
+
+    <p style="font-size:13px; margin-bottom:10px;">As per <span class="kw">AS-3 (Revised)</span>, cash flows are classified into three activities. Additionally, there are two methods for presenting cash flow from operating activities.</p>
+
+    <div class="side-heading">Type 1: Cash Flow from Operating Activities</div>
+    <div class="definition-box">
+      <div class="def-label">Definition</div>
+      <p>Cash flows from <strong>Operating Activities</strong> are the principal revenue-producing activities of the enterprise and other activities that are not investing or financing activities.</p>
+    </div>
+    <ul class="points-list">
+      <li><strong>Includes:</strong> Cash receipts from customers, Cash paid to suppliers and employees, Income tax paid, Operating expenses paid.</li>
+      <li><strong>Significance:</strong> The most important type. Indicates whether the firm can sustain operations and repay loans from its core business.</li>
+      <li><strong>Standard:</strong> Positive operating cash flow = healthy business.</li>
+    </ul>
+    <div class="formula-box">
+      <div class="f-label">Indirect Method Formula</div>
+      Net Profit + Non-Cash Items ± Changes in WC − Tax Paid = Operating Cash Flow
+    </div>
+
+    <div class="side-heading">Type 2: Cash Flow from Investing Activities</div>
+    <div class="definition-box">
+      <div class="def-label">Definition</div>
+      <p>Cash flows from <strong>Investing Activities</strong> relate to acquisition and disposal of long-term assets and other investments not included in cash equivalents.</p>
+    </div>
+    <ul class="points-list">
+      <li><strong>Cash Outflows:</strong> Purchase of fixed assets, Purchase of investments, Loans advanced.</li>
+      <li><strong>Cash Inflows:</strong> Sale of fixed assets, Sale of investments, Interest and dividend received, Loan repayments received.</li>
+      <li><strong>Significance:</strong> Shows how much the company is investing in future growth.</li>
+    </ul>
+
+    <div class="side-heading">Type 3: Cash Flow from Financing Activities</div>
+    <div class="definition-box">
+      <div class="def-label">Definition</div>
+      <p>Cash flows from <strong>Financing Activities</strong> result in changes in the size and composition of the owner's capital and borrowings of the enterprise.</p>
+    </div>
+    <ul class="points-list">
+      <li><strong>Cash Inflows:</strong> Issue of shares, Issue of debentures, Long-term loans raised.</li>
+      <li><strong>Cash Outflows:</strong> Redemption of shares/debentures, Repayment of loans, Payment of dividends, Interest paid on loans.</li>
+      <li><strong>Significance:</strong> Reveals how the company finances its operations and capital structure.</li>
+    </ul>
+
+    <div class="side-heading">Methods of Presenting Cash Flow from Operating Activities</div>
+    <table class="data-table">
+      <thead><tr><th>Basis</th><th>Direct Method</th><th>Indirect Method</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Approach</strong></td><td>Shows actual cash receipts and payments</td><td>Starts from Net Profit, then adjustments</td></tr>
+        <tr><td><strong>Starting Point</strong></td><td>Cash from customers</td><td>Net Profit before tax</td></tr>
+        <tr><td><strong>Ease</strong></td><td>More transparent but harder to prepare</td><td>Easier to prepare from accounts</td></tr>
+        <tr><td><strong>Preferred By</strong></td><td>AS-3 recommends, analysts prefer</td><td>More commonly used in practice</td></tr>
+        <tr><td><strong>Adjustments</strong></td><td>No adjustments needed</td><td>Adds depreciation, changes in WC, etc.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="conclusion-box">
+      <strong>Conclusion:</strong> The three types of cash flows — Operating, Investing, and Financing — together provide a comprehensive picture of the company's cash-generating ability, capital investment strategy, and financing decisions. Understanding all three is essential for a complete financial analysis.
+    </div>
+  </div>
+</div>
+
+<!-- Q15 -->
+<div class="q-card" id="q15">
+  <div class="q-header">
+    <div class="q-num">15</div>
+    <div class="q-title">Difference between Fund Flow Statement and Cash Flow Statement.</div>
+    <div class="q-marks">12 Marks</div>
+  </div>
+  <div class="q-body">
+
+    <div class="side-heading">Introduction</div>
+    <p style="font-size:13px; margin-bottom:12px;">Both <span class="kw">Funds Flow Statement (FFS)</span> and <span class="kw">Cash Flow Statement (CFS)</span> are tools for analyzing changes in financial position. However, they differ significantly in concept, scope, and use.</p>
+
+    <div class="side-heading">Detailed Comparison Table</div>
+    <table class="data-table">
+      <thead><tr><th>Basis of Difference</th><th>Funds Flow Statement</th><th>Cash Flow Statement</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Meaning</strong></td><td>Shows movement of funds (working capital) during a period</td><td>Shows movement of cash and cash equivalents during a period</td></tr>
+        <tr><td><strong>Basis</strong></td><td>Based on <strong>Working Capital Concept</strong> (CA − CL)</td><td>Based on <strong>Cash Concept</strong> only</td></tr>
+        <tr><td><strong>Scope</strong></td><td>Wider — includes all WC changes</td><td>Narrower — limited to cash movements</td></tr>
+        <tr><td><strong>Purpose</strong></td><td>Long-term financial analysis & planning</td><td>Short-term liquidity analysis</td></tr>
+        <tr><td><strong>Time Horizon</strong></td><td>Long-term view</td><td>Short-term view</td></tr>
+        <tr><td><strong>Accounting Basis</strong></td><td>Accrual basis (includes credit transactions)</td><td>Cash basis (only actual cash transactions)</td></tr>
+        <tr><td><strong>Starting Point</strong></td><td>Comparative Balance Sheets</td><td>Net Profit / Cash from Operations</td></tr>
+        <tr><td><strong>Activities</strong></td><td>Sources and Applications of Funds</td><td>Operating, Investing, Financing Activities</td></tr>
+        <tr><td><strong>Non-Cash Items</strong></td><td>Included (debtors, stock included in funds)</td><td>Excluded (only cash transactions)</td></tr>
+        <tr><td><strong>Governing Standard</strong></td><td>No specific AS (part of general practice)</td><td>AS-3 (Revised) / IND AS-7</td></tr>
+        <tr><td><strong>Usefulness to</strong></td><td>Long-term lenders, strategic planners</td><td>Short-term creditors, management</td></tr>
+        <tr><td><strong>Opening/Closing</strong></td><td>Shows changes in WC — no opening/closing</td><td>Shows opening and closing cash balances</td></tr>
+        <tr><td><strong>Preparation</strong></td><td>Requires Statement of Changes in WC</td><td>Requires P&L + Balance Sheet</td></tr>
+        <tr><td><strong>Compulsory?</strong></td><td>Not mandatory</td><td>Mandatory for listed companies</td></tr>
+      </tbody>
+    </table>
+
+    <div class="side-heading">Similarities between FFS and CFS</div>
+    <ul class="points-list">
+      <li>Both are prepared from the Balance Sheet and Income Statement data.</li>
+      <li>Both are <span class="kw">supplementary financial statements</span>.</li>
+      <li>Both analyze changes in financial position between two periods.</li>
+      <li>Both are useful for <span class="kw">internal management analysis</span>.</li>
+      <li>Both help in <span class="kw">planning future requirements</span>.</li>
+    </ul>
+
+    <div class="conclusion-box">
+      <strong>Conclusion:</strong> While FFS provides a broader view of long-term fund movements through working capital, CFS provides a narrower but more precise picture of actual cash movements. Both statements complement each other and together provide a comprehensive analysis of a company's financial health. Modern accounting standards emphasize CFS (AS-3) as mandatory.
+    </div>
+  </div>
+</div>
+
+
+<!-- =========================================================
+     PART B — SHORT QUESTIONS
+     ========================================================= -->
+<div class="part-header">
+  <h2>📗 PART B — Short Questions (5 Marks Each)</h2>
+  <p>Write concise, point-wise answers. 1–1.5 pages each. Include definition + 5–6 key points.</p>
+</div>
+
+<!-- Q16 -->
+<div class="sq-card" id="q16">
+  <div class="sq-header"><div class="sq-num">16</div><div class="sq-title">CVP Analysis (Cost-Volume-Profit Analysis)</div></div>
+  <div class="sq-body">
+    <div class="definition-box"><div class="def-label">Definition</div><p><span class="kw">CVP Analysis</span> studies the relationship between <strong>Cost, Volume of Production, and Profit</strong> to determine the impact of changes in costs and volume on a firm's profit.</p></div>
+    <div class="side-heading">Key Concepts</div>
+    <ul class="points-list">
+      <li><span class="kw">Contribution</span> = Sales − Variable Cost</li>
+      <li><span class="kw">P/V Ratio</span> = (Contribution / Sales) × 100</li>
+      <li><span class="kw">Break-Even Point</span> = Fixed Costs / P/V Ratio (₹) or Fixed Cost / Contribution per unit (Units)</li>
+      <li><span class="kw">Margin of Safety</span> = Actual Sales − BEP Sales</li>
+    </ul>
+    <div class="side-heading">Uses</div>
+    <ul class="points-list">
+      <li>Determines minimum sales needed to avoid loss.</li>
+      <li>Helps in <strong>pricing decisions</strong> and profit planning.</li>
+      <li>Evaluates effect of cost changes on profit.</li>
+      <li>Useful for <strong>make-or-buy</strong> and product mix decisions.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q17 -->
+<div class="sq-card" id="q17">
+  <div class="sq-header"><div class="sq-num">17</div><div class="sq-title">Management Accounting</div></div>
+  <div class="sq-body">
+    <div class="definition-box"><div class="def-label">Definition</div><p><span class="kw">Management Accounting</span> is the application of professional knowledge and skill in the preparation and presentation of accounting information to assist management in formulating policies and planning, controlling, and decision-making operations of the organization.</p></div>
+    <ul class="points-list">
+      <li>Serves <strong>internal management</strong> only — not statutory.</li>
+      <li>Uses both <span class="kw">financial and non-financial data</span>.</li>
+      <li>Future-oriented — focuses on <strong>planning and control</strong>.</li>
+      <li>No fixed format — tailor-made for management needs.</li>
+      <li>Tools: Budgets, Ratio Analysis, CVP, Standard Costing, FFS, CFS.</li>
+      <li>Covers: Cost Accounting + Financial Accounting + Statistical Methods.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q18 -->
+<div class="sq-card" id="q18">
+  <div class="sq-header"><div class="sq-num">18</div><div class="sq-title">Marginal Costing vs Absorption Costing</div></div>
+  <div class="sq-body">
+    <table class="data-table">
+      <thead><tr><th>Basis</th><th>Marginal Costing</th><th>Absorption Costing</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Also Called</strong></td><td>Variable Costing / Direct Costing</td><td>Full Costing / Total Costing</td></tr>
+        <tr><td><strong>Fixed OH Treatment</strong></td><td>Charged to P&L as period cost</td><td>Included in product cost</td></tr>
+        <tr><td><strong>Stock Valuation</strong></td><td>Only at variable cost</td><td>At full cost (variable + fixed)</td></tr>
+        <tr><td><strong>Profit</strong></td><td>Based on Contribution</td><td>Based on Net Profit</td></tr>
+        <tr><td><strong>Presentation</strong></td><td>Marginal Cost Statement</td><td>Traditional Cost Statement</td></tr>
+        <tr><td><strong>Best For</strong></td><td>Decision making, pricing</td><td>Financial reporting</td></tr>
+      </tbody>
+    </table>
+    <div class="formula-box"><div class="f-label">Key Formula</div>Contribution = Sales − Variable Cost | Profit = Contribution − Fixed Cost</div>
+  </div>
+</div>
+
+<!-- Q19 -->
+<div class="sq-card" id="q19">
+  <div class="sq-header"><div class="sq-num">19</div><div class="sq-title">Break-Even Point (BEP)</div></div>
+  <div class="sq-body">
+    <div class="definition-box"><div class="def-label">Definition</div><p><span class="kw">Break-Even Point</span> is the level of sales/output at which <strong>Total Revenue equals Total Cost</strong> — there is neither profit nor loss. It is the point of no profit, no loss.</p></div>
+    <div class="formula-box">
+      <div class="f-label">Formulas</div>
+      BEP (Units) = Fixed Cost / Contribution per unit<br>
+      BEP (₹ Sales) = Fixed Cost / P/V Ratio<br>
+      P/V Ratio = Contribution / Sales × 100<br>
+      Contribution per unit = Selling Price − Variable Cost per unit
+    </div>
+    <ul class="points-list">
+      <li>Below BEP → Loss | Above BEP → Profit.</li>
+      <li>Represented graphically by the <span class="kw">Break-Even Chart</span>.</li>
+      <li>Lower BEP = <strong>Better safety</strong> for the firm.</li>
+      <li>Useful for pricing decisions and production planning.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q20 -->
+<div class="sq-card" id="q20">
+  <div class="sq-header"><div class="sq-num">20</div><div class="sq-title">Functions of Management Accounting</div></div>
+  <div class="sq-body">
+    <ul class="points-list">
+      <li><span class="kw">Planning Function</span> — Prepares budgets, forecasts, and financial plans for all departments.</li>
+      <li><span class="kw">Controlling Function</span> — Compares actual results with plans; identifies and corrects deviations.</li>
+      <li><span class="kw">Decision-Making Function</span> — Provides cost-benefit data for make-or-buy, pricing, and expansion decisions.</li>
+      <li><span class="kw">Coordinating Function</span> — Integrates activities of all departments through budgetary systems.</li>
+      <li><span class="kw">Communicating Function</span> — Presents financial data in understandable reports to management at all levels.</li>
+      <li><span class="kw">Motivating Function</span> — Sets targets; rewards achievement; encourages efficiency and performance.</li>
+      <li><span class="kw">Reporting Function</span> — Prepares periodic performance reports — daily, weekly, monthly.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q21 -->
+<div class="sq-card" id="q21">
+  <div class="sq-header"><div class="sq-num">21</div><div class="sq-title">Opportunity Cost</div></div>
+  <div class="sq-body">
+    <div class="definition-box"><div class="def-label">Definition</div><p><span class="kw">Opportunity Cost</span> is the value of the <strong>next best alternative foregone</strong> when a decision is made to use resources in a particular way. It represents the benefit sacrificed by choosing one course of action over another.</p></div>
+    <ul class="points-list">
+      <li>Also called <span class="kw">Alternative Cost</span> or <strong>Economic Cost</strong>.</li>
+      <li>It is a <strong>notional cost</strong> — not recorded in books of accounts.</li>
+      <li><strong>Example:</strong> If a company uses its own building instead of renting it out, the foregone rent is the opportunity cost.</li>
+      <li>Used in: <strong>Make-or-Buy, Lease-or-Buy, Accept Special Order</strong> decisions.</li>
+      <li>Important for <span class="kw">resource allocation decisions</span>.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q22 -->
+<div class="sq-card" id="q22">
+  <div class="sq-header"><div class="sq-num">22</div><div class="sq-title">Standard Costing</div></div>
+  <div class="sq-body">
+    <div class="definition-box"><div class="def-label">Definition</div><p><span class="kw">Standard Costing</span> is a technique where <strong>pre-determined (standard) costs</strong> are established for each element of cost, and actual costs are compared with these standards to identify and analyze variances.</p></div>
+    <ul class="points-list">
+      <li>Standard cost = <strong>Expected cost under efficient conditions</strong>.</li>
+      <li>Variance = <span class="kw">Standard Cost − Actual Cost</span>.</li>
+      <li>Favorable Variance (F) → Actual < Standard | Adverse Variance (A) → Actual > Standard.</li>
+      <li>Types of Variances: <strong>Material, Labour, Overhead, Sales variances</strong>.</li>
+      <li>Used for: <span class="kw">Cost control, pricing, performance evaluation</span>.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q23 -->
+<div class="sq-card" id="q23">
+  <div class="sq-header"><div class="sq-num">23</div><div class="sq-title">Historical Cost</div></div>
+  <div class="sq-body">
+    <div class="definition-box"><div class="def-label">Definition</div><p><span class="kw">Historical Cost</span> is the <strong>actual cost incurred</strong> at the time of acquiring an asset or incurring an expense in the past. It is based on objective, verifiable past transactions.</p></div>
+    <ul class="points-list">
+      <li>Recorded at the <span class="kw">original purchase price</span>, not current market value.</li>
+      <li>Governed by the <strong>Cost Concept</strong> in accounting.</li>
+      <li><strong>Advantage:</strong> Objective, verifiable, and reliable.</li>
+      <li><strong>Limitation:</strong> Does not reflect <span class="kw">current replacement cost</span> or inflation impact.</li>
+      <li><strong>Use:</strong> Financial accounting, depreciation calculation, tax purposes.</li>
+      <li>Contrast with: <strong>Replacement Cost, Standard Cost, Opportunity Cost</strong>.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q24 -->
+<div class="sq-card" id="q24">
+  <div class="sq-header"><div class="sq-num">24</div><div class="sq-title">Budgetary Control</div></div>
+  <div class="sq-body">
+    <div class="definition-box"><div class="def-label">Definition (ICMA)</div><p><span class="kw">Budgetary Control</span> is "the establishment of budgets relating to the responsibilities of executives to the requirements of a policy, and the continuous comparison of actual results with budgeted results, either to secure individual action to achieve objectives or to revise the policy."</p></div>
+    <ul class="points-list">
+      <li>Involves <span class="kw">three steps</span>: Setting budgets → Recording actuals → Comparing and correcting.</li>
+      <li>Uses <strong>variance analysis</strong> to identify deviations.</li>
+      <li>Promotes <span class="kw">planning, coordination, and control</span>.</li>
+      <li>Establishes <strong>responsibility centers</strong> and delegation.</li>
+      <li>Based on the principle: <span class="kw">"Management by Exception"</span>.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q25 -->
+<div class="sq-card" id="q25">
+  <div class="sq-header"><div class="sq-num">25</div><div class="sq-title">Advantages of Budgetary Control</div></div>
+  <div class="sq-body">
+    <ul class="points-list">
+      <li><span class="kw">Definite Plan of Action</span> — Provides clear, pre-defined targets for all departments.</li>
+      <li><span class="kw">Promotes Coordination</span> — Integrates the plans of all departments toward a common goal.</li>
+      <li><span class="kw">Cost Reduction</span> — Identifies inefficiencies and reduces wastage.</li>
+      <li><span class="kw">Performance Measurement</span> — Acts as a yardstick for evaluating individual and departmental performance.</li>
+      <li><span class="kw">Forward Planning</span> — Forces management to plan ahead and anticipate problems.</li>
+      <li><span class="kw">Delegation & Motivation</span> — Budget centers delegate authority and motivate employees to meet targets.</li>
+      <li><span class="kw">Management by Exception</span> — Attention is focused only on significant deviations.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q26 -->
+<div class="sq-card" id="q26">
+  <div class="sq-header"><div class="sq-num">26</div><div class="sq-title">Objectives of Budgetary Control</div></div>
+  <div class="sq-body">
+    <ul class="points-list">
+      <li><span class="kw">Planning</span> — Compels management to plan systematically for the future.</li>
+      <li><span class="kw">Coordination</span> — Ensures all departments work in harmony toward organizational objectives.</li>
+      <li><span class="kw">Control</span> — Enables continuous monitoring of actual vs. budgeted performance.</li>
+      <li><span class="kw">Communication</span> — Budgets communicate goals and policies across all management levels.</li>
+      <li><span class="kw">Motivation</span> — Setting targets motivates employees to perform better.</li>
+      <li><span class="kw">Resource Allocation</span> — Optimally allocates scarce resources among competing departments.</li>
+      <li><span class="kw">Profit Maximisation</span> — Reduces costs and improves efficiency to maximize profit.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q27 -->
+<div class="sq-card" id="q27">
+  <div class="sq-header"><div class="sq-num">27</div><div class="sq-title">Margin of Safety</div></div>
+  <div class="sq-body">
+    <div class="definition-box"><div class="def-label">Definition</div><p><span class="kw">Margin of Safety</span> is the difference between <strong>Actual Sales and Break-Even Sales</strong>. It represents the amount by which sales can fall before a loss is incurred.</p></div>
+    <div class="formula-box">
+      <div class="f-label">Formulas</div>
+      Margin of Safety (₹) = Actual Sales − BEP Sales<br>
+      M/S Ratio = (Margin of Safety / Actual Sales) × 100<br>
+      Profit = Margin of Safety × P/V Ratio
+    </div>
+    <ul class="points-list">
+      <li>Higher M/S → <span class="kw">Safer position</span> for the firm.</li>
+      <li>Can be improved by: increasing sales, reducing fixed/variable costs, changing product mix.</li>
+      <li>Expressed in <strong>absolute terms (₹)</strong> or as a <strong>percentage of sales</strong>.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q28 -->
+<div class="sq-card" id="q28">
+  <div class="sq-header"><div class="sq-num">28</div><div class="sq-title">Importance of Financial Statement Analysis</div></div>
+  <div class="sq-body">
+    <ul class="points-list">
+      <li><span class="kw">Investment Decisions</span> — Investors assess profitability and risk before committing funds.</li>
+      <li><span class="kw">Credit Decisions</span> — Lenders evaluate repayment capacity through liquidity and solvency ratios.</li>
+      <li><span class="kw">Management Planning</span> — Basis for budgeting, forecasting, and target setting.</li>
+      <li><span class="kw">Performance Evaluation</span> — Measures efficiency of management and operations.</li>
+      <li><span class="kw">Comparative Analysis</span> — Enables comparison with industry standards and competitors.</li>
+      <li><span class="kw">Trend Identification</span> — Reveals growth trends, declining areas, and future prospects.</li>
+      <li><span class="kw">Employee & Government Use</span> — Employees assess job security; government uses for policy and taxation.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q29 -->
+<div class="sq-card" id="q29">
+  <div class="sq-header"><div class="sq-num">29</div><div class="sq-title">Objectives of Financial Statement Analysis</div></div>
+  <div class="sq-body">
+    <ul class="points-list">
+      <li><span class="kw">To Assess Profitability</span> — Evaluate the earnings capacity and return on investment.</li>
+      <li><span class="kw">To Evaluate Liquidity</span> — Determine the firm's ability to meet short-term obligations.</li>
+      <li><span class="kw">To Assess Solvency</span> — Examine long-term financial stability and debt repayment capacity.</li>
+      <li><span class="kw">To Measure Efficiency</span> — Evaluate how effectively assets and resources are being utilized.</li>
+      <li><span class="kw">To Enable Comparison</span> — Compare performance over time and against industry benchmarks.</li>
+      <li><span class="kw">To Aid Decision Making</span> — Provide basis for investment, financing, and operating decisions.</li>
+      <li><span class="kw">To Predict Future</span> — Use historical trends to forecast future performance.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q30 -->
+<div class="sq-card" id="q30">
+  <div class="sq-header"><div class="sq-num">30</div><div class="sq-title">Working Capital Problem</div></div>
+  <div class="sq-body">
+    <div class="definition-box"><div class="def-label">Meaning</div><p><span class="kw">Working Capital Problem</span> refers to the difficulties faced by a business in maintaining adequate <strong>net working capital</strong> (Current Assets − Current Liabilities) to ensure smooth business operations.</p></div>
+    <div class="side-heading">Causes of Working Capital Problems</div>
+    <ul class="points-list">
+      <li><span class="kw">Excessive Stock</span> — Overstocking ties up funds unnecessarily.</li>
+      <li><span class="kw">Long Credit Period to Debtors</span> — Delays in collection reduce available cash.</li>
+      <li><span class="kw">Rapid Expansion</span> — Fast growth without adequate financing strains WC.</li>
+      <li><span class="kw">Seasonal Fluctuations</span> — Irregular demand creates WC imbalances.</li>
+      <li><span class="kw">Operating Losses</span> — Continuous losses erode working capital.</li>
+      <li><span class="kw">Short-term Financing for Long-term Needs</span> — Mismatching of funds creates pressure.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q31 -->
+<div class="sq-card" id="q31">
+  <div class="sq-header"><div class="sq-num">31</div><div class="sq-title">Funds Flow Statement</div></div>
+  <div class="sq-body">
+    <div class="definition-box"><div class="def-label">Definition</div><p><span class="kw">Funds Flow Statement</span> is a financial statement that shows the <strong>movement (sources and applications) of funds</strong> during an accounting period. Funds = Net Working Capital = CA − CL.</p></div>
+    <ul class="points-list">
+      <li><strong>Sources:</strong> Issue of shares, loans, sale of assets, funds from operations.</li>
+      <li><strong>Applications:</strong> Purchase of assets, redemption of shares/debentures, payment of dividends/tax.</li>
+      <li>Prepared from <span class="kw">two Balance Sheets</span> + Statement of Changes in WC.</li>
+      <li>Used for <span class="kw">long-term financial analysis</span>.</li>
+      <li>Total Sources = Total Applications (always balances).</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q32 -->
+<div class="sq-card" id="q32">
+  <div class="sq-header"><div class="sq-num">32</div><div class="sq-title">Working Capital</div></div>
+  <div class="sq-body">
+    <div class="definition-box"><div class="def-label">Definition</div><p><span class="kw">Working Capital</span> is the capital available for day-to-day operations. <strong>Net Working Capital = Current Assets − Current Liabilities.</strong></p></div>
+    <div class="two-col">
+      <div class="mini-box"><h4>Current Assets</h4><ul><li>Cash & Bank</li><li>Debtors</li><li>Inventory</li><li>Bills Receivable</li><li>Prepaid Expenses</li></ul></div>
+      <div class="mini-box"><h4>Current Liabilities</h4><ul><li>Creditors</li><li>Bills Payable</li><li>Bank Overdraft</li><li>Outstanding Expenses</li></ul></div>
+    </div>
+    <ul class="points-list">
+      <li>Positive WC → Good <span class="kw">liquidity</span> | Negative WC → Financial stress.</li>
+      <li>Adequate WC ensures <strong>smooth operations</strong> and better creditworthiness.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q33 -->
+<div class="sq-card" id="q33">
+  <div class="sq-header"><div class="sq-num">33</div><div class="sq-title">Statement of Changes in Working Capital</div></div>
+  <div class="sq-body">
+    <div class="definition-box"><div class="def-label">Definition</div><p>The <span class="kw">Statement of Changes in Working Capital</span> is a schedule that shows the changes in each current asset and current liability between two accounting periods and determines the net increase or decrease in working capital.</p></div>
+    <ul class="points-list">
+      <li><strong>Increase in CA → Increase in WC</strong></li>
+      <li><strong>Decrease in CA → Decrease in WC</strong></li>
+      <li><strong>Increase in CL → Decrease in WC</strong></li>
+      <li><strong>Decrease in CL → Increase in WC</strong></li>
+      <li>It is a <span class="kw">preparatory schedule</span> for the Funds Flow Statement.</li>
+      <li>The net figure (increase/decrease in WC) appears in the FFS.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q34 -->
+<div class="sq-card" id="q34">
+  <div class="sq-header"><div class="sq-num">34</div><div class="sq-title">Importance of Funds Flow Statement</div></div>
+  <div class="sq-body">
+    <ul class="points-list">
+      <li><span class="kw">Explains Change in Financial Position</span> — Shows why working capital changed between two periods.</li>
+      <li><span class="kw">Long-Term Financial Planning</span> — Helps plan future capital requirements and fund sources.</li>
+      <li><span class="kw">Useful to Lenders</span> — Banks assess creditworthiness and fund utilization through FFS.</li>
+      <li><span class="kw">Supplements Balance Sheet</span> — Bridges information gap between two balance sheet dates.</li>
+      <li><span class="kw">Reveals Management Efficiency</span> — Shows how effectively funds have been mobilized and deployed.</li>
+      <li><span class="kw">Dividend Decision</span> — Helps management decide on dividend payments based on fund availability.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q35 -->
+<div class="sq-card" id="q35">
+  <div class="sq-header"><div class="sq-num">35</div><div class="sq-title">Importance of Cash Flow Statement</div></div>
+  <div class="sq-body">
+    <ul class="points-list">
+      <li><span class="kw">Shows Actual Cash Position</span> — Reveals true cash and liquidity status of the business.</li>
+      <li><span class="kw">Short-Term Planning</span> — Essential for cash budgeting and avoiding liquidity crises.</li>
+      <li><span class="kw">Evaluates Operating Efficiency</span> — Cash from operations shows whether core business is cash-generating.</li>
+      <li><span class="kw">Investor Analysis</span> — Investors check free cash flow for dividend and growth potential.</li>
+      <li><span class="kw">Regulatory Requirement</span> — Mandatory under <strong>AS-3</strong> for listed companies.</li>
+      <li><span class="kw">Valuation Tool</span> — Discounted Cash Flow (DCF) uses CFS data for business valuation.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q36 -->
+<div class="sq-card" id="q36">
+  <div class="sq-header"><div class="sq-num">36</div><div class="sq-title">Significance of Cash Flow Statement</div></div>
+  <div class="sq-body">
+    <ul class="points-list">
+      <li><span class="kw">Reveals Cash-Generating Ability</span> — Shows if the business generates sufficient cash from operations to sustain itself.</li>
+      <li><span class="kw">Identifies Sources and Uses of Cash</span> — Classifies cash flows into operating, investing, and financing activities.</li>
+      <li><span class="kw">Complements Accrual Statements</span> — Provides a cash-based view alongside accrual-based P&L and Balance Sheet.</li>
+      <li><span class="kw">Aids in Comparison</span> — Actual cash flows can be compared with projected cash budgets.</li>
+      <li><span class="kw">Decision Support</span> — Used for make-or-buy, expansion, and financing decisions.</li>
+      <li><span class="kw">Trust Building</span> — Transparent cash reporting builds trust among shareholders and creditors.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q37 -->
+<div class="sq-card" id="q37">
+  <div class="sq-header"><div class="sq-num">37</div><div class="sq-title">Calculation of Cash Flow from Operating Activities</div></div>
+  <div class="sq-body">
+    <p style="font-size:13px; margin-bottom:8px;">There are two methods: <span class="kw">Direct Method</span> and <span class="kw">Indirect Method</span>. The Indirect Method is more common in practice.</p>
+    <div class="formula-box">
+      <div class="f-label">Indirect Method — Step by Step</div>
+      Net Profit Before Tax &amp; Extraordinary Items ........ XX<br>
+      <br>
+      ADD BACK (Non-Cash Items):<br>
+      + Depreciation ........................................... XX<br>
+      + Amortization of Goodwill/Intangibles ................... XX<br>
+      + Loss on Sale of Fixed Assets ........................... XX<br>
+      + Provision for Bad Debts ................................ XX<br>
+      <br>
+      LESS (Non-Cash Credits):<br>
+      − Profit on Sale of Fixed Assets ......................... (XX)<br>
+      − Dividend/Interest Received (moved to Investing) ........ (XX)<br>
+      <br>
+      CHANGES IN WORKING CAPITAL:<br>
+      + Decrease in Current Assets ............................. XX<br>
+      − Increase in Current Assets ............................. (XX)<br>
+      + Increase in Current Liabilities ........................ XX<br>
+      − Decrease in Current Liabilities ........................ (XX)<br>
+      <br>
+      Less: Tax Paid ........................................... (XX)<br>
+      Less: Interest Paid (if operating) ....................... (XX)<br>
+      ─────────────────────────────────────────────────────────<br>
+      Net Cash from Operating Activities ....................... XX
+    </div>
+    <div class="side-heading">Key Rule for WC Adjustments</div>
+    <table class="data-table">
+      <thead><tr><th>Item</th><th>Change</th><th>Effect</th></tr></thead>
+      <tbody>
+        <tr><td>Current Asset (e.g., Debtors)</td><td>Increases ↑</td><td>Cash Outflow (Deduct)</td></tr>
+        <tr><td>Current Asset (e.g., Debtors)</td><td>Decreases ↓</td><td>Cash Inflow (Add)</td></tr>
+        <tr><td>Current Liability (e.g., Creditors)</td><td>Increases ↑</td><td>Cash Inflow (Add)</td></tr>
+        <tr><td>Current Liability (e.g., Creditors)</td><td>Decreases ↓</td><td>Cash Outflow (Deduct)</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<!-- =========================================================
+     LAST MINUTE REVISION SECTION
+     ========================================================= -->
+<div class="lm-section" id="revision">
+  <div class="lm-header">
+    <h2>⚡ LAST-MINUTE EXAM REVISION KIT</h2>
+    <p style="font-size:12px; opacity:0.8; margin-top:6px;">Quick notes • Keywords • Mnemonics • One-page sheet</p>
+  </div>
+  <div class="lm-body">
+
+    <!-- EASY REVISION NOTES -->
+    <div class="lm-card">
+      <h3><div class="icon">1</div> Easy Revision Notes — Topic Summaries</h3>
+      <table style="width:100%; border-collapse:collapse; font-size:12px; color:rgba(255,255,255,0.85);">
+        <thead><tr style="border-bottom:1px solid rgba(201,168,76,0.3);">
+          <th style="padding:8px; text-align:left; color:var(--gold);">Topic</th>
+          <th style="padding:8px; text-align:left; color:var(--gold);">Core Idea in One Line</th>
+          <th style="padding:8px; text-align:left; color:var(--gold);">Key Keyword</th>
+        </tr></thead>
+        <tbody>
+          <tr style="border-bottom:1px solid rgba(255,255,255,0.05);"><td style="padding:7px; font-weight:700;">Management Accounting</td><td style="padding:7px;">Info for planning, control, decision making</td><td style="padding:7px; color:#f5e6c0;">ICMA Definition</td></tr>
+          <tr style="border-bottom:1px solid rgba(255,255,255,0.05);"><td style="padding:7px; font-weight:700;">Budgetary Control</td><td style="padding:7px;">Set budgets → Compare actual → Correct deviation</td><td style="padding:7px; color:#f5e6c0;">Management by Exception</td></tr>
+          <tr style="border-bottom:1px solid rgba(255,255,255,0.05);"><td style="padding:7px; font-weight:700;">CVP / BEP</td><td style="padding:7px;">Point where Total Revenue = Total Cost</td><td style="padding:7px; color:#f5e6c0;">Contribution = S − VC</td></tr>
+          <tr style="border-bottom:1px solid rgba(255,255,255,0.05);"><td style="padding:7px; font-weight:700;">Ratio Analysis</td><td style="padding:7px;">Mathematical relationship for financial assessment</td><td style="padding:7px; color:#f5e6c0;">Current Ratio = 2:1</td></tr>
+          <tr style="border-bottom:1px solid rgba(255,255,255,0.05);"><td style="padding:7px; font-weight:700;">Funds Flow Statement</td><td style="padding:7px;">Sources & Applications of Working Capital</td><td style="padding:7px; color:#f5e6c0;">Funds = CA − CL</td></tr>
+          <tr style="border-bottom:1px solid rgba(255,255,255,0.05);"><td style="padding:7px; font-weight:700;">Cash Flow Statement</td><td style="padding:7px;">Operating + Investing + Financing cash flows</td><td style="padding:7px; color:#f5e6c0;">AS-3 (Revised)</td></tr>
+          <tr style="border-bottom:1px solid rgba(255,255,255,0.05);"><td style="padding:7px; font-weight:700;">Working Capital</td><td style="padding:7px;">Capital for daily operations = CA − CL</td><td style="padding:7px; color:#f5e6c0;">Liquidity</td></tr>
+          <tr style="border-bottom:1px solid rgba(255,255,255,0.05);"><td style="padding:7px; font-weight:700;">Marginal Costing</td><td style="padding:7px;">Fixed cost = period cost; Contribution = S − VC</td><td style="padding:7px; color:#f5e6c0;">P/V Ratio</td></tr>
+          <tr><td style="padding:7px; font-weight:700;">Standard Costing</td><td style="padding:7px;">Pre-determined costs vs actual costs = Variance</td><td style="padding:7px; color:#f5e6c0;">Variance Analysis</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- KEYWORDS -->
+    <div class="lm-card" id="mnemonics">
+      <h3><div class="icon">2</div> Last-Minute Exam Keywords to Boldly Write</h3>
+      <p style="font-size:12px; color:rgba(255,255,255,0.6); margin-bottom:10px;">Write these keywords BOLD in your answer — examiners love them:</p>
+      <div class="keyword-grid">
+        <span class="kw-tag">Net Working Capital</span>
+        <span class="kw-tag">Management by Exception</span>
+        <span class="kw-tag">Contribution</span>
+        <span class="kw-tag">P/V Ratio</span>
+        <span class="kw-tag">Break-Even Point</span>
+        <span class="kw-tag">Margin of Safety</span>
+        <span class="kw-tag">Variance Analysis</span>
+        <span class="kw-tag">AS-3 (Revised)</span>
+        <span class="kw-tag">Sunk Cost</span>
+        <span class="kw-tag">Opportunity Cost</span>
+        <span class="kw-tag">Relevant Cost</span>
+        <span class="kw-tag">Fixed Budget</span>
+        <span class="kw-tag">Flexible Budget</span>
+        <span class="kw-tag">Master Budget</span>
+        <span class="kw-tag">Current Ratio 2:1</span>
+        <span class="kw-tag">Quick Ratio 1:1</span>
+        <span class="kw-tag">Sources of Funds</span>
+        <span class="kw-tag">Application of Funds</span>
+        <span class="kw-tag">Operating Activities</span>
+        <span class="kw-tag">Investing Activities</span>
+        <span class="kw-tag">Financing Activities</span>
+        <span class="kw-tag">Indirect Method</span>
+        <span class="kw-tag">Direct Method</span>
+        <span class="kw-tag">Accrual Basis</span>
+        <span class="kw-tag">Cash Equivalent</span>
+        <span class="kw-tag">Horizontal Analysis</span>
+        <span class="kw-tag">Vertical Analysis</span>
+        <span class="kw-tag">Common Size Statement</span>
+        <span class="kw-tag">Budget Committee</span>
+        <span class="kw-tag">Budget Officer</span>
+        <span class="kw-tag">Principal Budget Factor</span>
+        <span class="kw-tag">Key Factor</span>
+        <span class="kw-tag">Zero-Based Budget</span>
+        <span class="kw-tag">Differential Cost</span>
+        <span class="kw-tag">Absorption Costing</span>
+        <span class="kw-tag">Standard Costing</span>
+      </div>
+    </div>
+
+    <!-- MNEMONICS -->
+    <div class="lm-card">
+      <h3><div class="icon">3</div> Mnemonics for Easy Memory</h3>
+
+      <div class="mnemonic-box">
+        <div class="m-phrase">🧠 "SCOPED" — Scope of Management Accounting</div>
+        <div class="m-expand">
+          <strong>S</strong>tatistical Methods &nbsp;|&nbsp;
+          <strong>C</strong>ost Accounting &nbsp;|&nbsp;
+          <strong>O</strong>perations Research &nbsp;|&nbsp;
+          <strong>P</strong>rofit Planning (Marginal Costing) &nbsp;|&nbsp;
+          <strong>E</strong>xternal Reporting (Financial Accounting) &nbsp;|&nbsp;
+          <strong>D</strong>ecision Making Tools (CVP, Ratio, Budget)
+        </div>
+      </div>
+
+      <div class="mnemonic-box">
+        <div class="m-phrase">🧠 "PCCCM" — Objectives of Budgetary Control</div>
+        <div class="m-expand">
+          <strong>P</strong>lanning &nbsp;|&nbsp;
+          <strong>C</strong>oordination &nbsp;|&nbsp;
+          <strong>C</strong>ontrol &nbsp;|&nbsp;
+          <strong>C</strong>ommunication &nbsp;|&nbsp;
+          <strong>M</strong>otivation (+ Performance Evaluation + Resource Allocation)
+        </div>
+      </div>
+
+      <div class="mnemonic-box">
+        <div class="m-phrase">🧠 "OIF" — Three Activities of Cash Flow Statement</div>
+        <div class="m-expand">
+          <strong>O</strong>perating Activities (Core business) &nbsp;|&nbsp;
+          <strong>I</strong>nvesting Activities (Long-term assets) &nbsp;|&nbsp;
+          <strong>F</strong>inancing Activities (Capital structure)
+        </div>
+      </div>
+
+      <div class="mnemonic-box">
+        <div class="m-phrase">🧠 "DISC" — Changes in WC Rule for CFS</div>
+        <div class="m-expand">
+          <strong>D</strong>ecrease in CA → Add &nbsp;|&nbsp;
+          <strong>I</strong>ncrease in CA → Deduct &nbsp;|&nbsp;
+          <strong>S</strong>urge in CL → Add &nbsp;|&nbsp;
+          <strong>C</strong>ut in CL → Deduct
+        </div>
+      </div>
+
+      <div class="mnemonic-box">
+        <div class="m-phrase">🧠 "FLIP" — 4 Types of Ratios</div>
+        <div class="m-expand">
+          <strong>F</strong>inancial Leverage Ratios (Solvency) &nbsp;|&nbsp;
+          <strong>L</strong>iquidity Ratios &nbsp;|&nbsp;
+          <strong>I</strong>nvestment/Profitability Ratios &nbsp;|&nbsp;
+          <strong>P</strong>erformance/Activity Ratios
+        </div>
+      </div>
+
+      <div class="mnemonic-box">
+        <div class="m-phrase">🧠 BEP Formula Chain — "FC/CPU = BEP Units"</div>
+        <div class="m-expand">
+          Fixed Cost ÷ Contribution Per Unit = BEP in Units &nbsp;|&nbsp;
+          BEP (₹) = Fixed Cost ÷ P/V Ratio &nbsp;|&nbsp;
+          Margin of Safety = Actual Sales − BEP Sales &nbsp;|&nbsp;
+          Profit = M/S × P/V Ratio
+        </div>
+      </div>
+
+      <div class="mnemonic-box">
+        <div class="m-phrase">🧠 "SIDE" — Sources in FFS</div>
+        <div class="m-expand">
+          <strong>S</strong>hares issued &nbsp;|&nbsp;
+          <strong>I</strong>ncrease in long-term loans &nbsp;|&nbsp;
+          <strong>D</strong>isposal of fixed assets &nbsp;|&nbsp;
+          <strong>E</strong>arnings from operations (Funds from Operations)
+        </div>
+      </div>
+    </div>
+
+    <!-- IMPORTANT HEADINGS FORMAT -->
+    <div class="lm-card">
+      <h3><div class="icon">4</div> Important Headings Only Format — Quick Checklist</h3>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; font-size:12px; color:rgba(255,255,255,0.8);">
+        <div>
+          <p style="color:var(--gold); font-weight:700; margin-bottom:6px;">Management Accounting Answer</p>
+          <ul class="quick-list">
+            <li>Meaning / Definition (ICMA)</li>
+            <li>Features (10 points)</li>
+            <li>Objectives (8 points)</li>
+            <li>Scope (table of 10 areas)</li>
+            <li>Conclusion</li>
+          </ul>
+        </div>
+        <div>
+          <p style="color:var(--gold); font-weight:700; margin-bottom:6px;">Budgetary Control Answer</p>
+          <ul class="quick-list">
+            <li>Definition of Budget (ICMA)</li>
+            <li>Definition of Budgetary Control</li>
+            <li>Objectives (8 points)</li>
+            <li>Advantages (10 points)</li>
+            <li>Limitations (5 points)</li>
+            <li>Conclusion</li>
+          </ul>
+        </div>
+        <div>
+          <p style="color:var(--gold); font-weight:700; margin-bottom:6px;">Funds Flow Statement Answer</p>
+          <ul class="quick-list">
+            <li>Meaning of Funds (WC = CA − CL)</li>
+            <li>Definition of FFS</li>
+            <li>Sources vs Applications (table)</li>
+            <li>Importance (6 points)</li>
+            <li>Limitations (6 points)</li>
+            <li>Format of FFS</li>
+          </ul>
+        </div>
+        <div>
+          <p style="color:var(--gold); font-weight:700; margin-bottom:6px;">Cash Flow Statement Answer</p>
+          <ul class="quick-list">
+            <li>Definition (AS-3)</li>
+            <li>Cash vs Cash Equivalents</li>
+            <li>Advantages (8 points)</li>
+            <li>Limitations (6 points)</li>
+            <li>Direct vs Indirect Method</li>
+            <li>Proforma format</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ONE PAGE QUICK REVISION SHEET -->
+<div class="qrs" id="quicksheet">
+  <div class="qrs-header">⚡ ONE-PAGE QUICK REVISION SHEET — Management Accounting (Sem 6)</div>
+  <div class="qrs-body">
+
+    <div class="qrs-block">
+      <h4>📐 Key Formulas</h4>
+      <ul>
+        <li>Contribution = Sales − Variable Cost</li>
+        <li>P/V Ratio = (Contribution/Sales) × 100</li>
+        <li>BEP (Units) = FC / CPU</li>
+        <li>BEP (₹) = FC / P/V Ratio</li>
+        <li>M/S = Actual Sales − BEP Sales</li>
+        <li>Net WC = Current Assets − CL</li>
+        <li>Current Ratio = CA / CL (Standard 2:1)</li>
+        <li>Quick Ratio = Quick Assets / CL (1:1)</li>
+        <li>GP Ratio = GP/Net Sales × 100</li>
+        <li>NP Ratio = NP/Net Sales × 100</li>
+        <li>ROI = NP / Capital Employed × 100</li>
+        <li>Variance = Standard − Actual</li>
+      </ul>
+    </div>
+
+    <div class="qrs-block">
+      <h4>📋 Types to Remember</h4>
+      <ul>
+        <li><strong>Budgets by Time:</strong> Long, Short, Current</li>
+        <li><strong>Budgets by Flex:</strong> Fixed, Flexible</li>
+        <li><strong>Functional Budgets:</strong> Sales, Production, Purchase, Labour, Cash, CapEx, Master</li>
+        <li><strong>Ratio Types:</strong> Liquidity, Profitability, Activity, Solvency</li>
+        <li><strong>FSA Types:</strong> Internal/External, Horizontal/Vertical</li>
+        <li><strong>CFS Activities:</strong> Operating (O), Investing (I), Financing (F)</li>
+        <li><strong>CFS Methods:</strong> Direct, Indirect</li>
+        <li><strong>Cost Types:</strong> Fixed, Variable, Semi-variable, Marginal, Opportunity, Sunk, Differential, Standard</li>
+      </ul>
+    </div>
+
+    <div class="qrs-block">
+      <h4>📝 Standard Definitions</h4>
+      <ul>
+        <li><strong>Mgmt Accounting:</strong> Accounting info for internal management decisions — ICMA</li>
+        <li><strong>Budget:</strong> Quantitative statement prior to a period — ICMA</li>
+        <li><strong>BEP:</strong> No profit, no loss level</li>
+        <li><strong>Contribution:</strong> Sales − Variable Cost</li>
+        <li><strong>Funds:</strong> Net Working Capital (CA − CL)</li>
+        <li><strong>FFS:</strong> Statement of sources and applications of funds</li>
+        <li><strong>CFS:</strong> Statement of cash movements (AS-3)</li>
+        <li><strong>Opportunity Cost:</strong> Value of next best alternative foregone</li>
+        <li><strong>Sunk Cost:</strong> Past irrecoverable cost — irrelevant</li>
+        <li><strong>Marginal Cost:</strong> Cost of one additional unit = Variable Cost</li>
+      </ul>
+    </div>
+
+    <div class="qrs-block">
+      <h4>🔤 MNEMONICS</h4>
+      <ul>
+        <li><strong>SCOPED</strong> → Scope of Mgmt Accounting</li>
+        <li><strong>PCCCM</strong> → Objectives of Budgetary Control</li>
+        <li><strong>OIF</strong> → Cash Flow Activities</li>
+        <li><strong>DISC</strong> → WC Changes in CFS</li>
+        <li><strong>FLIP</strong> → 4 Types of Ratios</li>
+        <li><strong>SIDE</strong> → Sources in FFS</li>
+        <li><strong>FC/CPU</strong> → BEP Units Formula</li>
+      </ul>
+    </div>
+
+    <div class="qrs-block">
+      <h4>⚖️ Key Comparisons</h4>
+      <ul>
+        <li><strong>Cost A/c vs Mgmt A/c:</strong> Narrow vs Wide scope</li>
+        <li><strong>Marginal vs Absorption:</strong> FC as period cost vs product cost</li>
+        <li><strong>Fixed vs Flexible Budget:</strong> One level vs multiple levels</li>
+        <li><strong>FFS vs CFS:</strong> WC based vs Cash based; Long vs Short term</li>
+        <li><strong>Horizontal vs Vertical:</strong> Time series vs Cross-sectional</li>
+        <li><strong>Direct vs Indirect:</strong> Actual cash vs Profit adjustment method</li>
+        <li><strong>Gross WC vs Net WC:</strong> Total CA vs CA − CL</li>
+      </ul>
+    </div>
+
+    <div class="qrs-block">
+      <h4>🚩 Exam Tips</h4>
+      <ul>
+        <li>Always write ICMA/AS-3 definitions first</li>
+        <li>Use SIDE HEADINGS for every paragraph</li>
+        <li>Bold all keywords in your answer</li>
+        <li>Always include a CONCLUSION paragraph</li>
+        <li>Use comparison tables wherever possible</li>
+        <li>Write formulas in boxes</li>
+        <li>For 12-mark: 8–10 points minimum per section</li>
+        <li>For 5-mark: 5–6 crisp points with definition</li>
+        <li>FFS → Always mention: Funds = WC = CA − CL</li>
+        <li>CFS → Always mention: AS-3 Revised</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<div style="text-align:center; margin-top:30px; padding:20px; font-size:11px; color:#999; border-top:1px solid var(--border);">
+  OU B.Com Semester 6 — Management Accounting | Complete Exam Guide<br>
+  <strong>All 37 Questions Covered</strong> | Long Questions + Short Questions + Last-Minute Revision<br>
+  Prepared as per Osmania University Standards
+</div>
+
+</div><!-- end container -->
+</body>
+</html>
